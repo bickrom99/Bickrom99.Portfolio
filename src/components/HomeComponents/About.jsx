@@ -26,7 +26,7 @@ const About = () => {
 
                     {/* User Image */}
                     <img
-                        src="//src/assets/Images/userImage.png"
+                        src="/Images/userImage.png"
                         alt="userImage"
                         className="relative z-10 h-[350px] rounded-full border-[5px] border-white shadow-md"
                     />
