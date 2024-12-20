@@ -96,7 +96,7 @@ const Portfolio = () => {
                     </h2>
                     <img
                         className="w-[10%] m-auto mt-2"
-                        src="/public/Images/line_design.png"
+                        src="/Images/line_design.png"
                         alt="decorative"
                     />
                 </div>
