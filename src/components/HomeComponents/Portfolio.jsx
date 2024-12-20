@@ -12,7 +12,7 @@ const Portfolio = () => {
 
     useEffect(() => {
         // Fetch portfolio data
-        fetch('/public/api/DataAll.json')
+        fetch('/api/DataAll.json')
             .then((response) => response.json())
             .then((fetchedData) => {
                 if (fetchedData && fetchedData.Portfolio) {
