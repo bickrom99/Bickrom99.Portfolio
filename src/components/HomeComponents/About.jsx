@@ -70,8 +70,8 @@ const About = () => {
                     />
                 </div>
 
-                {/* User Information */}
-                <div className="relative z-10 text-black dark:text-white ml-8 col-span-3">
+                {/* Admin Information */}
+                <div className="relative text-black dark:text-white ml-8 col-span-3">
                     <h4 className="text-sm font-Dm_font font-medium text-[#263143]">Hi! 👋 Bickrom Chandro Sen</h4>
                     {/* Animation text */}
                     <h2 className="font-Dm_font font-semibold text-3xl pt-3">
@@ -88,18 +88,24 @@ const About = () => {
                         Whether it’s enhancing user experience or achieving better engagement, I’m here to turn your ideas into reality.
                     </p>
 
-                    {/* get startted button */}
+                            {/* CTA button here */}
                     <div className="flex gap-5 mt-5">
-                        <a className="flex items-center gap-2 justify-center bg-[#5820FF] text-white font-Dm_font text-sm py-3 cursor-pointer rounded-md px-4 shadow-md">
+                        <a
+                            className="group flex items-center gap-2 justify-center bg-[#5820FF] text-white font-Dm_font text-sm py-3 cursor-pointer rounded-md px-4 shadow-md transition-transform duration-300 ease-in-out transform hover:scale-110 hover:shadow-lg"
+                        >
                             <span>Get Started</span>
-                            <FaArrowRightFromBracket/>
+                            <FaArrowRightFromBracket className="group-hover:translate-x-1 transition-transform duration-300" />
                         </a>
-                        {/* Download CV */}
-                        <a className="flex items-center gap-2 justify-center border-[1.3px] border-gray-400 font-Dm_font text-sm cursor-pointer py-2 rounded-md px-4 shadow-lg">
-                            <FaDownload/>
+                        
+                        {/* View Resume Button */}
+                        <a
+                            className="group flex items-center gap-2 justify-center border-[1.3px] border-gray-400 font-Dm_font text-sm cursor-pointer py-2 rounded-md px-4 shadow-lg transition-transform duration-300 ease-in-out transform hover:scale-110 hover:shadow-lg"
+                        >
+                            <FaDownload className="group-hover:translate-y-1 transition-transform duration-300" />
                             <span>View Resume</span>
                         </a>
                     </div>
+
                 </div>
             </div>
         </div>

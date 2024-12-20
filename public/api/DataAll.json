@@ -1,0 +1,53 @@
+{
+  "Portfolio": [
+    {
+      "id": 1,
+      "image": "/Images/Live-quizz-website.png",
+      "Title": "Live-Quizz Website Using React",
+      "desc": "Interactive React-based quiz platform offering seamless performance, responsive design, and user-friendly interface for enhanced engagement.",
+      "livePreviewLink": "https://quiz-live-bickrom99.vercel.app/"
+    },
+    {
+      "id": 2,
+      "image": "/Images/WP-Fire-website.png",
+      "Title": "Fire Service Website Using WordPress",
+      "desc": "Efficient Fire Service website with real-time updates, clear navigation, and professional design for emergency response.",
+      "livePreviewLink": "https://fire.brittosoft.com/"
+    },
+    {
+      "id": 3,
+      "image": "/Images/Business-Card.png",
+      "Title": "Digital Business Card",
+      "desc": "Eco-friendly digital card showcasing professional details with sleek design and easy accessibility for impactful networking.",
+      "livePreviewLink": "https://bickrom99.github.io/Digital-business-card2/"
+    },
+    {
+      "id": 4,
+      "image": "/Images/WP-Business_web.png",
+      "Title": "Ecommerce WordPress Website For Business",
+      "desc": "Feature-rich eCommerce site with secure payments, responsive design, and user-friendly navigation to boost online sales.",
+      "livePreviewLink": "https://jenningsexec.com/"
+    },
+    {
+      "id": 5,
+      "image": "/Images/WP-Business-web2.png",
+      "Title": "Ecommerce WordPress Website For Business",
+      "desc": "Professional eCommerce website with mobile-friendly design, secure transactions, and seamless navigation for business growth.",
+      "livePreviewLink": "https://healthybodysoul.net/"
+    },
+    {
+      "id": 6,
+      "image": "/Images/Blog-website.png",
+      "Title": "Blog Website Design",
+      "desc": "Responsive blog website optimized for content sharing, readability, and engagement to expand audience reach.",
+      "livePreviewLink": "https://react-blog-website-rose.vercel.app/"
+    },
+    {
+      "id": 7,
+      "image": "/Images/Ecommerce-website.png",
+      "Title": "Ecommerce Website Using Custom Code",
+      "desc": "Custom-coded eCommerce site offering tailored features, secure transactions, and exceptional performance for online shopping.",
+      "livePreviewLink": "https://commerce-website-bickrom99.vercel.app/"
+    }
+  ]
+}
