@@ -63,7 +63,7 @@ const About = () => {
                         from-blue-600 via-purple-500 to-green-500 bg-[length:400%_400%] z-0"
                     ></div>
                     <img
-                        src="/Images/userImage.png"
+                        src="/Images/userImage.jpeg"
                         alt="userImage"
                         className="relative z-0 h-[350px] rounded-full border-[5px] border-white shadow-md"
                         loading="lazy"

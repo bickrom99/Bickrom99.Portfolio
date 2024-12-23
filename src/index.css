@@ -1,4 +1,4 @@
-/* Inter font family  */
+/* Inter font family */
 @import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
 
 /* Vast Shadow */
@@ -21,4 +21,19 @@ body.dark {
 body {
   background-color: #fff;
   color: #333;
+}
+
+/* ===Skill page component style-> tailwind css custom code==== */
+/* skillFullSection tailwind code */
+.Skills-button {
+  @apply flex flex-row gap-3 items-center bg-[#F7F1FD] border-[1.3px] border-[#acacac47] rounded-md py-4 px-5 transition-transform duration-300 cursor-pointer hover:scale-110 hover:bg-[#ead8fe] hover:border-[#cea8fc];
+}
+/* Skill icon tailwind code */
+.Skills-icon {
+  @apply text-xl group-hover:scale-110 transition-transform duration-300;
+}
+/* Skill text tailwind code */
+
+.Skills-Text {
+  @apply group-hover:translate-x-2 transition-transform duration-300 font-inter text-base font-medium;
 }
