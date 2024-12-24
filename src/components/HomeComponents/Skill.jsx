@@ -79,7 +79,7 @@ const Skill = () => {
             <div className="w-[90%] mx-auto">
                 <div className="text-center">
                     <h2 className="font-semibold font-Vast_shadow text-2xl text-gray-800 dark:text-gray-100">
-                        My <span className="text-indigo-600">Technologies & Tools</span>
+                    Technologies<span className="text-indigo-600"> & Tools</span>
                     </h2>
                     <img
                         className="w-[20%] m-auto mt-2"
@@ -183,8 +183,8 @@ const Skill = () => {
                         <div className="flex gap-10 justify-between items-stretch">
                             {/* WordPress Theme Section */}
                             <div className="w-1/2 flex flex-col">
-                                <h2 className="font-semibold text-lg text-gray-800 dark:text-gray-100 border-b-2 border-[#5671f7] font-inter">
-                                    Theme Section
+                                <h2 className="font-semibold text-lg text-gray-800 dark:text-gray-100 border-b-2 border-[#5671f7] font-inter pb-2">
+                                    WordPress Theme
                                 </h2>
                                 <div className="grid grid-cols-2 gap-5 mt-5 flex-grow">
                                     {/* Add Themes */}
@@ -240,8 +240,8 @@ const Skill = () => {
 
                             {/* WordPress Plugin Section */}
                             <div className="w-1/2 flex flex-col">
-                                <h2 className="font-semibold text-lg text-gray-800 dark:text-gray-100 border-b-2 border-[#5671f7] font-inter">
-                                    Plugin Section
+                                <h2 className="font-semibold text-lg text-gray-800 dark:text-gray-100 border-b-2 border-[#5671f7] font-inter pb-2">
+                                WordPress Plugin
                                 </h2>
                                 <div className="grid grid-cols-2 gap-5 mt-5 flex-grow">
                                     {/* Add Plugins */}

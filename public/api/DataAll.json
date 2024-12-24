@@ -49,5 +49,87 @@
       "desc": "Custom-coded eCommerce site offering tailored features, secure transactions, and exceptional performance for online shopping.",
       "livePreviewLink": "https://commerce-website-bickrom99.vercel.app/"
     }
+  ],
+  "Services": [
+    {
+      "id": 1,
+      "Title": "Frontend Web Development",
+      "desc": "Creating responsive and visually appealing designs for seamless user experiences.",
+      "features": "Responsive design, High-performance, Cross-browser compatibility",
+      "estimatedDelivery": "1-2 weeks",
+      "technologies": "HTML, CSS, JavaScript, React js, Tailwind CSS, Bootstrap5"
+    },
+    {
+      "id": 2,
+      "Title": "Website Design, Redesign & Customization",
+      "desc": "Designing or customizing websites with unique, user-friendly features.",
+      "features": "Custom design, User-friendly UI, Brand-focused design",
+      "estimatedDelivery": "1-7 deys",
+      "technologies": "HTML, CSS, JavaScript, WordPress"
+    },
+    {
+      "id": 3,
+      "Title": "WordPress Business Website Development",
+      "desc": "Building professional, mobile-optimized WordPress websites tailored to your brand.",
+      "features": "Mobile optimization, SEO-friendly, Secure architecture",
+      "estimatedDelivery": "1-2 weeks",
+      "technologies": "WordPress, Elementor pro, WooCommerce, Custom themes"
+    },
+    {
+      "id": 4,
+      "Title": "E-commerce Website Development on WordPress",
+      "desc": "Developing scalable e-commerce sites with secure payments and product management.",
+      "features": "Secure payment integration, Inventory management, Product showcase",
+      "estimatedDelivery": "1-3 weeks",
+      "technologies": "WooCommerce, PayPal, Stripe, WordPress"
+    },
+    {
+      "id": 5,
+      "Title": "WordPress Landing Page/ Sales Page",
+      "desc": "Creating high-converting landing pages optimized for leads and engagement.",
+      "features": "High conversion rate, SEO optimized, Fast loading",
+      "estimatedDelivery": "1-5 deys",
+      "technologies": "Elementor pro,Security, WordPress"
+    },
+    {
+      "id": 6,
+      "Title": "WordPress Website Customization",
+      "desc": "Advanced WordPress customization, including theme and plugin enhancements.",
+      "features": "Theme customization, Plugin integration, Feature enhancement",
+      "estimatedDelivery": "1-7 days",
+      "technologies": "WordPress, Elementor, Custom code"
+    },
+    {
+      "id": 7,
+      "Title": "WordPress Bug Fixes & Troubleshooting",
+      "desc": "Resolving WordPress issues to ensure smooth and reliable site performance.",
+      "features": "Bug fixes, Conflict resolution, Site optimization",
+      "estimatedDelivery": "1-3 days",
+      "technologies": "WordPress, PHP, JavaScript"
+    },
+    {
+      "id": 8,
+      "Title": "WordPress Malware Removal & Security",
+      "desc": "Removing malware and securing your WordPress site against future threats.",
+      "features": "Complete malware removal, Security hardening, Protection against future attacks",
+      "estimatedDelivery": "1-2 days",
+      "technologies": "WordPress, Security plugins, Malware scanning"
+    },
+    {
+      "id": 9,
+      "Title": "Figma/XD/PSD to WordPress Conversion",
+      "desc": "Converting designs into pixel-perfect, responsive WordPress websites.",
+      "features": "Pixel-perfect design, Responsive layout, Quick turnaround",
+      "estimatedDelivery": "1-2 weeks",
+      "technologies": "WordPress, Elementor, HTML, Custom CSS"
+    },
+    {
+      "id": 10,
+      "Title": "WordPress Migration & Backup Services",
+      "desc": "Seamless WordPress migrations with complete backups and data integrity.",
+      "features": "Seamless migration, Complete backup, Data integrity",
+      "estimatedDelivery": "1-2 days",
+      "technologies": "WordPress, cPanel, FTP"
+    }
   ]
 }

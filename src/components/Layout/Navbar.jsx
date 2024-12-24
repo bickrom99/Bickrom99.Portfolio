@@ -7,8 +7,8 @@ const Navbar = ({ toggleDarkMode, darkMode }) => {
         { path: "/", link: "Home" },
         { path: "/about", link: "About" },
         { path: "/portfolio", link: "Projects" },
-        { path: "/skills", link: "Skills" },
-        { path: "/services", link: "Services" },
+        { path: "/skill", link: "Skills" },
+        { path: "/service", link: "Services" },
         { path: "/contact", link: "Contact" }
     ];
 
