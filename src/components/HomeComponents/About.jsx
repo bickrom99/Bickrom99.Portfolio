@@ -72,7 +72,7 @@ const About = () => {
 
                 {/* Admin Information */}
                 <div className="relative text-black dark:text-white ml-8 col-span-3">
-                    <h4 className="text-sm font-Dm_font font-medium text-[#263143]">Hi! 👋 Bickrom Chandro Sen</h4>
+                    <h4 className="text-sm font-Dm_font font-medium text-[#263143]">👋 Hello there, I am Bickrom Chandro Sen</h4>
                     {/* Animation text */}
                     <h2 className="font-Dm_font font-semibold text-3xl pt-3">
                         <span

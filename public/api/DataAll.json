@@ -122,14 +122,156 @@
       "features": "Pixel-perfect design, Responsive layout, Quick turnaround",
       "estimatedDelivery": "1-2 weeks",
       "technologies": "WordPress, Elementor, HTML, Custom CSS"
+    }
+  ],
+  "Testimonial": [
+    {
+      "name": "Alice M.",
+      "country": "United States",
+      "image": "/images/testimonials/alice.jpg",
+      "description": "Working with bickrom99 was a pleasure! He understood my requirements perfectly and delivered a stunning website. I couldn’t be happier with the results!",
+      "review": "Fiverr"
     },
     {
-      "id": 10,
-      "Title": "WordPress Migration & Backup Services",
-      "desc": "Seamless WordPress migrations with complete backups and data integrity.",
-      "features": "Seamless migration, Complete backup, Data integrity",
-      "estimatedDelivery": "1-2 days",
-      "technologies": "WordPress, cPanel, FTP"
+      "name": "James K.",
+      "country": "Canada",
+      "image": "/images/testimonials/james.jpg",
+      "description": "Bickrom99 exceeded my expectations! The functionality he added to my WordPress site is flawless, and he delivered it before the deadline.",
+      "review": "Fiverr"
+    },
+    {
+      "name": "Sophie L.",
+      "country": "United Kingdom",
+      "image": "/images/testimonials/sophie.jpg",
+      "description": "I loved working with bickrom99. His attention to detail and ability to bring my ideas to life were exceptional. Highly recommend him!",
+      "review": "Upwork",
+      "rating": 4.8
+    },
+    {
+      "name": "Rajesh P.",
+      "country": "India",
+      "image": "/images/testimonials/rajesh.jpg",
+      "description": "Bickrom99 did an outstanding job on my business website. His expertise and dedication made the entire process smooth and stress-free.",
+      "review": "Linkedin"
+    },
+    {
+      "name": "Maria G.",
+      "country": "Spain",
+      "image": "/images/testimonials/maria.jpg",
+      "description": "I’m so glad I chose bickrom99 for my project. His designs are user-friendly, and he kept me informed at every step of the process.",
+      "review": "Fiverr"
+    },
+    {
+      "name": "Michael T.",
+      "country": "Australia",
+      "image": "/images/testimonials/michael.jpg",
+      "description": "Bickrom99 was professional and efficient. My website now loads faster than ever, and my clients love the new design!",
+      "review": "Upwork"
+    },
+    {
+      "name": "Ling W.",
+      "country": "China",
+      "image": "/images/testimonials/ling.jpg",
+      "description": "I highly recommend bickrom99. He delivered a modern, responsive website that perfectly matched my business needs.",
+      "review": "Fiverr"
+    },
+    {
+      "name": "Elena R.",
+      "country": "Italy",
+      "image": "/images/testimonials/elena.jpg",
+      "description": "Bickrom99 made my ideas come alive with his creativity and technical expertise. I’m extremely happy with the result.",
+      "review": "Fiverr"
+    },
+    {
+      "name": "Ahmed S.",
+      "country": "United Arab Emirates",
+      "image": "/images/testimonials/ahmed.jpg",
+      "description": "Bickrom99 was responsive, reliable, and highly skilled. My website is now a standout in the market.",
+      "review": "Fiverr",
+      "rating": 4.8
+    },
+    {
+      "name": "Sarah J.",
+      "country": "South Africa",
+      "image": "/images/testimonials/sarah.jpg",
+      "description": "Bickrom99 transformed my vision into reality! My online store is now both beautiful and functional.",
+      "review": "Upwork"
+    },
+    {
+      "name": "Tom H.",
+      "country": "Germany",
+      "image": "/images/testimonials/tom.jpg",
+      "description": "The website delivered by bickrom99 was fantastic! His communication and expertise made this project a success.",
+      "review": "Upwork"
+    },
+    {
+      "name": "Emma C.",
+      "country": "France",
+      "image": "/images/testimonials/emma.jpg",
+      "description": "Bickrom99 is the best! He designed a stunning website that exceeded my expectations. Highly recommend!",
+      "review": "Fiverr",
+      "rating": 4.8
+    },
+    {
+      "name": "Yuki N.",
+      "country": "Japan",
+      "image": "/images/testimonials/yuki.jpg",
+      "description": "I couldn’t be happier with bickrom99’s work. He was attentive, skilled, and delivered a beautiful website.",
+      "review": "Fiverr"
+    },
+    {
+      "name": "Carlos M.",
+      "country": "Mexico",
+      "image": "/images/testimonials/carlos.jpg",
+      "description": "Bickrom99 is a true professional! My website now looks amazing and works flawlessly.",
+      "review": "Fiverr"
+    },
+    {
+      "name": "Hannah W.",
+      "country": "New Zealand",
+      "image": "/images/testimonials/hannah.jpg",
+      "description": "Bickrom99 added innovative features and ensured the website was perfect down to the smallest detail.",
+      "review": "Linkedin"
+    },
+    {
+      "name": "Viktor B.",
+      "country": "Russia",
+      "image": "/images/testimonials/viktor.jpg",
+      "description": "Bickrom99’s technical skills and creativity are unmatched. My website looks and functions perfectly.",
+      "review": "Fiverr"
+    }
+  ],
+
+  "Faq": [
+    {
+      "id": 1,
+      "Question": "What services do you offer as a Frontend Developer and WordPress Expert?",
+      "Answer": "I specialize in creating visually appealing, responsive websites tailored to your business needs. My services include developing custom WordPress themes, Elementor Pro designs, bug fixes, website optimization for speed and SEO, and converting designs (XD, PSD, Figma) to functional websites. I also offer e-commerce website development, landing pages, and advanced WordPress customization."
+    },
+    {
+      "id": 2,
+      "Question": "How do you ensure the websites you build are mobile-friendly?",
+      "Answer": "I adopt a mobile-first design approach, ensuring that the website is fully responsive and looks great on all screen sizes. I use CSS media queries, flexible layouts, and modern testing tools to simulate user experiences across devices, including smartphones, tablets, and desktops. Before delivery, I rigorously test the website on real devices to guarantee flawless performance."
+    },
+    {
+      "id": 3,
+      "Question": "Can you help with fixing WordPress issues and malware removal?",
+      "Answer": "Absolutely! I offer comprehensive WordPress troubleshooting and malware removal services. This includes fixing broken layouts, resolving plugin conflicts, restoring hacked websites, and implementing advanced security measures to prevent future attacks. I ensure that your website is not only fixed but also safeguarded for long-term stability."
+    },
+    {
+      "id": 4,
+      "Question": "Do you provide support and maintenance for completed projects?",
+      "Answer": "Yes, I provide ongoing support and maintenance services to ensure your website remains updated and fully functional. This includes regular updates, performance monitoring, fixing issues, and implementing requested changes. My goal is to give you peace of mind while you focus on your business."
+    },
+    {
+      "id": 5,
+      "Question": "What tools and technologies do you use in your development process?",
+      "Answer": "I utilize modern and industry-standard tools and technologies, including HTML5, CSS3, JavaScript, React, WordPress, and Elementor Pro. For styling, I use TailwindCSS and SASS. I also employ tools like GSAP for animations and SEO plugins like RankMath or Yoast to optimize your website for search engines. My workflow is focused on efficiency, scalability, and delivering top-notch results."
+    },
+    {
+      "id": 6,
+      "Question": "How long does it take to complete a typical project?",
+      "Answer": "The timeline varies depending on the complexity and scope of the project. Standard business or portfolio websites typically take 1-2 weeks, while larger projects like e-commerce websites may require 2-4 weeks. I always provide a detailed timeline after understanding your requirements to ensure timely delivery."
     }
   ]
 }

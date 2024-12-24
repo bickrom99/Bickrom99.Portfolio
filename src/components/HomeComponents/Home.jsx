@@ -1,7 +1,9 @@
 import About from "./About";
+import Faq from "./Faq";
 import Portfolio from "./Portfolio";
 import Services from "./Services";
 import Skill from "./Skill";
+import Tetimonial from "./Tetimonial";
 
 const Home = () => {
     return (
@@ -10,6 +12,8 @@ const Home = () => {
             <Portfolio/>
             <Skill/>
             <Services/>
+            <Tetimonial/>
+            <Faq/>
         </div>
     );
 };

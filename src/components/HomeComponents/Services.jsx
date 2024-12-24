@@ -36,7 +36,7 @@ const Services = () => {
     }, [serviceData]);
 
     return (
-        <div className="bg-gradient-to-b from-[#ffffff] via-[#f4eafc] to-[#e8f8ff] dark:from-[#1A1A1A] dark:via-[#2D2D2D] dark:to-[#3A3A3A] transition-all duration-300 min-h-screen">
+        <div className="bg-gradient-to-b from-[#ffffff] via-[#f4eafc] to-[#e8f8ff] dark:from-[#1A1A1A] dark:via-[#2D2D2D] dark:to-[#3A3A3A] transition-all duration-300 min-h-screen pb-16">
             <div className="w-[90%] mx-auto">
                 {/* Section Heading */}
                 <div className="mt-4 mb-8 text-center">
