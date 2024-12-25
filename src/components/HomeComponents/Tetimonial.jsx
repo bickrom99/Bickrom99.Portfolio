@@ -1,4 +1,4 @@
-import { useState, useEffect } from "react";
+import { useEffect, useState } from "react";
 import { FaArrowDownLong, FaArrowUpLong } from "react-icons/fa6";
 
 const Testimonial = () => {
@@ -38,26 +38,26 @@ const Testimonial = () => {
                 {testimonialsToShow.map((testimonial, index) => (
                     <div
                     key={index}
-                    className="shadow rounded-lg dark:bg-slate-700 hover:shadow-lg hover:transition-all hover:duration-150 cursor-pointer"
+                    className="shadow rounded-lg dark:bg-slate-700 hover:shadow-lg transition-transform duration-300 cursor-text hover:scale-105"
                     >
                     <div className="p-3">
                         <div className="flex flex-row gap-4 justify-start items-center pb-4">
                         <img
                             src={testimonial.image}
-                            className="w-12 h-12 rounded-full shadow-md"
+                            className="w-14 h-14 flex justify-center items-center rounded-full shadow-md"
                             alt="profile"
                         />
                         <div>
-                            <h2 className="text-lg font-roboto dark:text-[#e1e1e1]">
+                            <h2 className="text-base font-inter font-semibold dark:text-[#e1e1e1]">
                             {testimonial.name}
                             </h2>
-                            <h4 className="text-xs font-noto_font text-[#4b42c5]">
-                            from <span>{testimonial.review}</span>
+                            <h4 className="text-sm font-medium font-inter text-gray-600">
+                            from <span className="text-[#5a3ee8]">{testimonial.review}</span>
                             </h4>
-                            <div>⭐⭐⭐⭐⭐</div>
+                            <div className="text-sm">⭐⭐⭐⭐⭐</div>
                         </div>
                         </div>
-                        <p className="text-xs font-poppins dark:text-[#b3b3b3] text-gray-600 pb-3">
+                        <p className="text-xs font-Dm_font  dark:text-[#b3b3b3] text-gray-600 pb-3">
                         {testimonial.description}
                         </p>
                     </div>

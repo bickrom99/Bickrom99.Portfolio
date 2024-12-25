@@ -37,3 +37,9 @@ body {
 .Skills-Text {
   @apply group-hover:translate-x-2 transition-transform duration-300 font-inter text-base font-medium;
 }
+
+/* Contact form tailwind css code */
+
+.contact-input {
+  @apply outline-none w-full px-4 py-2 rounded-md font-medium text-sm placeholder:font-Dm_font placeholder:font-normal text-[#6b6b6b];
+}
