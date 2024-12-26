@@ -39,6 +39,7 @@ body {
 }
 
 /* Contact form tailwind css code */
+/* Contact form tailwind css code */
 
 .contact-input {
   @apply outline-none w-full px-4 py-2 rounded-md font-medium text-sm placeholder:font-Dm_font placeholder:font-normal text-[#6b6b6b];

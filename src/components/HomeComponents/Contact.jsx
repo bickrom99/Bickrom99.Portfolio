@@ -21,18 +21,14 @@ const Contact = () => {
         'service_vdq7wah', // Your Service ID
         'template_ur8ln0y', // Your Template ID
         form.current, // Form reference
-        {
-          publicKey: '_-arK-pJ65hVEcxoC', // Public Key from EmailJS
-        }
+        '_-arK-pJ65hVEcxoC' // Public Key
       )
       .then(
         () => {
-          console.log('SUCCESS!');
           setStatus("Your message has been sent successfully!");
         },
         (error) => {
-          console.log('FAILED...', error.text);
-          setStatus("Failed to send message. Please try again.");
+          setStatus("Failed to send message. Please try again.", error);
         }
       );
 
@@ -46,99 +42,132 @@ const Contact = () => {
   };
 
   return (
-    <div className="bg-gradient-to-b from-[#E8F9FE] via-[#dff6fd] to-[#E8F9FE] dark:from-[#1A1A1A] dark:via-[#2D2D2D] dark:to-[#3A3A3A] transition-all duration-300 min-h-screen">
-      <div className="w-[90%] m-auto flex flex-row justify-between gap-x-4">
-        <div className="w-full m-auto">
-          <h2 className="text-center text-4xl font-iner font-semibold pb-4">Contact Me</h2>
-          <form
-            ref={form}
-            className="w-full bg-gradient-to-t from-[#89b0f961] via-[#19c7e65d] to-[#89b0f944] py-6 px-6 rounded"
-            onSubmit={sendEmail}
-          >
-            {/* Name */}
-            <div className="pb-4">
-              <input
-                className="contact-input"
-                type="text"
-                name="name" // Make sure this matches the template
-                value={name}
-                placeholder="Full Name"
-                onChange={(e) => setName(e.target.value)}
-                required
-              />
-            </div>
+    <div className="bg-gradient-to-b from-[#E8F9FE] via-[#dff6fd] to-[#E8F9FE] dark:from-[#1A1A1A] dark:via-[#2D2D2D] dark:to-[#3A3A3A] transition-all duration-300 py-16">
+      <div className="w-[90%] m-auto">
+        <div className="pb-4">
+          <h2 className="font-medium font-inter text-2xl text-center dark:text-gray-100 pb-2">
+            Get in Touch <span className="text-indigo-600 font-Vast_shadow font-semibold text-3xl">with me</span>
+          </h2>
+          <p className="text-center text-gray-600 pb-6 font-Dm_font font-medium">
+            Have a question or need assistance? Fill out the form below, and we’ll respond promptly!
+          </p>
+        </div>
 
-            {/* Phone & Email */}
-            <div className="flex flex-row gap-x-4 justify-between pb-4">
-              {/* Phone */}
-              <input
-                className="contact-input"
-                type="number"
-                name="phone" // Make sure this matches the template
-                placeholder="Phone"
-                value={phone}
-                onChange={(e) => setPhone(e.target.value)}
-                required
-              />
-              {/* Email */}
-              <input
-                className="contact-input"
-                type="email"
-                name="email" // Make sure this matches the template
-                value={email}
-                placeholder="Email"
-                onChange={(e) => setEmail(e.target.value)}
-                required
-              />
-            </div>
-
-            {/* Option & Country */}
-            <div className="flex flex-row justify-between gap-x-4 pb-4">
-              <select
-                name="service" // Make sure this matches the template
-                className="contact-input"
-                value={service}
-                onChange={(e) => setService(e.target.value)}
-                required
-              >
-                <option value="">Select Service</option>
-                <option value="Web development">Web Development</option>
-                <option value="Web design">Web Design</option>
-                <option value="Web bug fix">Web Bug Fix</option>
-              </select>
-
-              {/* Country */}
-              <input
-                type="text"
-                name="country" // Make sure this matches the template
-                className="contact-input"
-                placeholder="Country"
-                value={country}
-                onChange={(e) => setCountry(e.target.value)}
-                required
-              />
-            </div>
-
-            {/* Message */}
-            <div className="pb-4">
-              <textarea
-                name="message" // Make sure this matches the template
-                className="contact-input"
-                value={message}
-                placeholder="Message"
-                onChange={(e) => setMessage(e.target.value)}
-                required
-              ></textarea>
-            </div>
-
-            <button
-              type="submit"
-              className="bg-blue-600 text-white w-full py-2 font-inter rounded transition-transform duration-300 hover:scale-105 hover:bg-blue-500"
+        <div className="flex flex-wrap gap-y-8 gap-x-6">
+          {/* Contact Form */}
+          <div className="w-full md:w-[60%]">
+            <form
+              ref={form}
+              className="w-full bg-gradient-to-t from-[#89b0f961] via-[#19c7e65d] to-[#89b0f944] py-6 px-6 rounded"
+              onSubmit={sendEmail}
             >
-              Send Message
-            </button>
-          </form>
-          {status && <p className="mt-4 text-center text-green-500">{status}</p>}
+              <h2 className="text-center text-2xl font-iner font-semibold pb-4 text-[#fe3ec4]">Contact Me</h2>
+              {/* Name */}
+              <div className="pb-4">
+                <input
+                  className="contact-input"
+                  type="text"
+                  name="name"
+                  value={name}
+                  placeholder="Full Name"
+                  onChange={(e) => setName(e.target.value)}
+                  required
+                />
+              </div>
+
+              {/* Phone & Email */}
+              <div className="flex flex-wrap gap-4 pb-4">
+                <input
+                  className="contact-input"
+                  type="number"
+                  name="phone"
+                  placeholder="Phone"
+                  value={phone}
+                  onChange={(e) => setPhone(e.target.value)}
+                  required
+                />
+                <input
+                  className="contact-input"
+                  type="email"
+                  name="email"
+                  value={email}
+                  placeholder="Email"
+                  onChange={(e) => setEmail(e.target.value)}
+                  required
+                />
+              </div>
+
+              {/* Service & Country */}
+              <div className="flex flex-wrap gap-4 pb-4">
+                <select
+                  name="service"
+                  className="contact-input"
+                  value={service}
+                  onChange={(e) => setService(e.target.value)}
+                  required
+                >
+                  <option value="">Select Services</option>
+                  <option value="Custom code Website">Custom code Website</option>
+                  <option value="Create WordPress Website">Create WordPress Website</option>
+                  <option value="WordPress E-commerce Website">WordPress E-commerce Website</option>
+                  <option value="Landing Page Website">Landing Page Website</option>
+                  <option value="Rebuild, Copy, Edit, Customization">Rebuild, Copy, Edit, Customization</option>
+                  <option value="WordPress bug fixing">WordPress bug fixing</option>
+                  <option value="Malware Removal & Security">Malware Removal & Security</option>
+                </select>
+                <input
+                  type="text"
+                  name="country"
+                  className="contact-input"
+                  placeholder="Country"
+                  value={country}
+                  onChange={(e) => setCountry(e.target.value)}
+                  required
+                />
+              </div>
+
+              {/* Message */}
+              <div className="pb-4">
+                <textarea
+                  name="message"
+                  className="contact-input"
+                  value={message}
+                  placeholder="Message"
+                  onChange={(e) => setMessage(e.target.value)}
+                  required
+                ></textarea>
+              </div>
+
+              <button
+                type="submit"
+                className="bg-blue-600 text-white w-full py-2 font-inter rounded transition-transform duration-300 hover:scale-105 hover:bg-blue-500"
+              >
+                Send Message
+              </button>
+            </form>
+            {status && <p className="mt-4 text-center text-green-500">{status}</p>}
+          </div>
+
+          {/* Information & Google Map */}
+          <div className="w-full md:w-[35%] bg-white shadow-md p-6 rounded">
+            <div className="flex flex-row gap-x-4">
+              <h2 className="text-lg font-semibold text-gray-800 font-inter">Bickrom Chandro Sen</h2>
+              <span className="inline-block bg-[#1d2f69] text-white text-sm font-medium py-1 px-3 rounded-full font-Dm_font">
+                Web Developer
+              </span>
+            </div>
+                <p className="text-gray-600 mt-2 font-Dm_font text-sm">
+                Crafting seamless digital experiences with precision and creativity.  
+                Empowering brands to thrive online with tailored web solutions.  
+              </p>
+                          
+
+            <div className="mt-6">
+                  <iframe 
+                  type="google map"
+                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d67667.16828987045!2d89.21460999683711!3d25.754493786630565!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39e32de6fca6019b%3A0x9fa496e687f818c8!2sRangpur!5e0!3m2!1sen!2sbd!4v1735174010213!5m2!1sen!2sbd" className="w-full h-[300px] rounded shadow-md" allowfullscreen="" loading="lazy"></iframe>
+            </div>
+          </div>
         </div>
       </div>
     </div>
