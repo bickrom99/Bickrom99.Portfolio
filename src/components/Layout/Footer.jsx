@@ -1,6 +1,5 @@
 import { useEffect, useRef } from 'react';
 import { FaTwitter, FaQuora, FaBehance, FaDribbble, FaCreativeCommons, FaEnvira } from 'react-icons/fa'; 
-import {  } from "react-icons/fa";
 
 import gsap from 'gsap';
 

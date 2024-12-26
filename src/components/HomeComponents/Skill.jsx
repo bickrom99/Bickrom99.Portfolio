@@ -75,7 +75,7 @@ const Skill = () => {
     }, [activeTab]);
 
     return (
-        <div className="bg-gradient-to-b from-[#e8f8ff] via-[#f4eafc] to-[#ffffff] dark:from-[#2d2d2d] dark:via-[#3b3b3b] dark:to-[#1A1A1A] min-h-screen py-16">
+        <div id="skills" className="bg-gradient-to-b from-[#e8f8ff] via-[#f4eafc] to-[#ffffff] dark:from-[#2d2d2d] dark:via-[#3b3b3b] dark:to-[#1A1A1A] min-h-screen py-16">
             <div className="w-[90%] mx-auto">
                 <div className="text-center">
                     <h2 className="font-semibold font-Vast_shadow text-2xl text-gray-800 dark:text-gray-100">

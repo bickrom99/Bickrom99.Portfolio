@@ -88,10 +88,10 @@ const Portfolio = () => {
     }, [itemsToShow]);
 
     return (
-        <div className="bg-gradient-to-b from-[#ffffff] via-[#f4eafc] to-[#e8f8ff] dark:from-[#1A1A1A] dark:via-[#2D2D2D] dark:to-[#3A3A3A] transition-all duration-300 min-h-screen">
+        <div id="projects" className="bg-gradient-to-b from-[#ffffff] via-[#f4eafc] to-[#e8f8ff] dark:from-[#1A1A1A] dark:via-[#2D2D2D] dark:to-[#3A3A3A] transition-all duration-300">
             <div className="w-[90%] m-auto py-8">
                 <div className="text-center">
-                    <h2 className="font-semibold font-Vast_shadow text-2xl text-gray-800 dark:text-gray-100">
+                    <h2 className="font-semibold font-Vast_shadow text-2xl text-gray-800 dark:text-gray-100 pt-8">
                         My Recent <span className="text-indigo-600">Portfolio</span>
                     </h2>
                     <img
