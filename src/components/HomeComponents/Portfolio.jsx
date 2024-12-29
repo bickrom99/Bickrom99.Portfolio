@@ -1,7 +1,7 @@
 import { gsap } from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 import { useEffect, useState } from "react";
-import { FaEye, FaExternalLinkAlt } from "react-icons/fa";
+import { FaExternalLinkAlt, FaEye } from "react-icons/fa";
 import { FaArrowDownLong, FaArrowUpLong } from "react-icons/fa6";
 
 gsap.registerPlugin(ScrollTrigger);
@@ -101,7 +101,7 @@ const Portfolio = () => {
                     />
                 </div>
 
-                <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mt-12">
+                <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 sm:mt-12 mt-6">
                     {itemsToShow.map((item) => (
                         <div
                             key={item.id}
@@ -114,7 +114,7 @@ const Portfolio = () => {
                                 alt={item.Title}
                                 className="w-full h-48 object-cover rounded-md"
                             />
-                            <h3 className="text-md font-inter font-bold mt-4 text-gray-800 dark:text-gray-100 z-10 relative">
+                            <h3 className="font-inter font-bold mt-4 text-gray-800 dark:text-gray-100 z-10 relative">
                                 {item.Title}
                             </h3>
                             <p className="text-sm font-Dm_font text-gray-600 dark:text-gray-400 mt-2 z-10 relative">

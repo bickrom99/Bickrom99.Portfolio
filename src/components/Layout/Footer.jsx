@@ -113,7 +113,7 @@ const Footer = () => {
                     {/* Platform Links */}
                     <div className="space-x-4 mt-6">
                         <a
-                            href="https://www.fiverr.com/yourprofile"
+                            href="https://www.fiverr.com/bickrom99/"
                             target="_blank"
                             rel="noopener noreferrer"
                             className="text-white bg-green-600 hover:bg-green-700 py-2 px-4 rounded-md transition duration-300 font-inter text-base"
@@ -121,7 +121,7 @@ const Footer = () => {
                             View on Fiverr
                         </a>
                         <a
-                            href="https://www.upwork.com/freelancers/~yourprofile"
+                            href="https://www.upwork.com/freelancers/~016ef2f4247685f88f"
                             target="_blank"
                             rel="noopener noreferrer"
                             className="text-white bg-blue-600 hover:bg-blue-700 py-2 px-4 rounded-md transition duration-300 font-inter text-base"

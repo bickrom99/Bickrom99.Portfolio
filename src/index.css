@@ -35,7 +35,7 @@ body {
 /* Skill text tailwind code */
 
 .Skills-Text {
-  @apply group-hover:translate-x-2 transition-transform duration-300 font-inter text-base font-medium;
+  @apply group-hover:translate-x-2 transition-transform duration-300 font-inter font-medium sm:text-base text-sm;
 }
 
 /* Contact form tailwind css code */

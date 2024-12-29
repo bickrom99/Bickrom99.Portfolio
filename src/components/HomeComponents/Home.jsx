@@ -8,7 +8,7 @@ import Tetimonial from "./Tetimonial";
 
 const Home = () => {
     return (
-        <div id="home" className="pt-[4.3rem]">
+        <div id="home" className="pt-[4.1rem]">
             <About />
             <Portfolio/>
             <Skill/>

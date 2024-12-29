@@ -4,7 +4,9 @@ import { useEffect, useRef, useState } from "react";
 // Font Awesome & Simple Icons
 import {
     FaBootstrap,
+    FaCloudUploadAlt,
     FaCog,
+    FaCogs,
     FaCss3Alt,
     FaCubes,
     FaElementor,
@@ -21,16 +23,14 @@ import {
     FaShoppingCart,
     FaStar,
     FaWater,
-    FaWpforms,
-    FaCogs,
-    FaCloudUploadAlt
+    FaWpforms
 } from "react-icons/fa";
 // Si font
 import {
-    SiAdobexd, 
-    SiElementor, SiFirebase, SiFramer, SiNextdotjs, 
+    SiAdobexd,
+    SiElementor, SiFirebase, SiFramer, SiNextdotjs,
     SiSlideshare,
-    SiTailwindcss, 
+    SiTailwindcss,
 } from "react-icons/si";
 
 const Skill = () => {
@@ -82,7 +82,7 @@ const Skill = () => {
                     Technologies<span className="text-indigo-600"> & Tools</span>
                     </h2>
                     <img
-                        className="w-[20%] m-auto mt-2"
+                        className="w-[70%] sm:w-[25%] m-auto mt-2"
                         src="/Images/line_design.png"
                         alt="decorative"
                     />
@@ -180,10 +180,10 @@ const Skill = () => {
                 {/* WordPress Development Tools */}
                 {activeTab === "wordpress" && (
                     <div className="mt-12 text-center">
-                        <div className="flex gap-10 justify-between items-stretch">
+                        <div className="flex sm:flex-row flex-col gap-10 justify-between items-stretch">
                             {/* WordPress Theme Section */}
-                            <div className="w-1/2 flex flex-col">
-                                <h2 className="font-semibold text-lg text-gray-800 dark:text-gray-100 border-b-2 border-[#5671f7] font-inter pb-2">
+                            <div className="sm:w-1/2 flex flex-col">
+                                <h2 className="font-semibold sm:text-lg text-gray-800 dark:text-gray-100 border-b-2 border-[#5671f7] font-inter pb-2">
                                     WordPress Theme
                                 </h2>
                                 <div className="grid grid-cols-2 gap-5 mt-5 flex-grow">
@@ -210,7 +210,7 @@ const Skill = () => {
                                     </div>
                                     <div className="group Skills-button hover:scale-105">
                                         <SiElementor className="text-[#007cba] Skills-icon" /> {/* Hello Elementor - Blue */}
-                                        <span className="Skills-Text">Hello Elementor</span>
+                                        <span className="Skills-Text sm:text-base text-xs">Hello Elementor</span>
                                     </div>
                                     <div className="group Skills-button hover:scale-105">
                                         <FaStar className="text-[#e42b4b] Skills-icon" /> {/* Neve - Red */}
@@ -234,12 +234,12 @@ const Skill = () => {
 
                             {/* Vertical Line */}
                             <div
-                                className="h-96 mt-6 w-2 rounded shadow bg-gradient-to-b from-[#d9d328] to-[#5f13e2]"
+                                className="h-96 mt-6 w-2 rounded shadow bg-gradient-to-b from-[#d9d328] to-[#5f13e2] sm:flex hidden"
                                 ref={lineRef}
                             ></div>
 
                             {/* WordPress Plugin Section */}
-                            <div className="w-1/2 flex flex-col">
+                            <div className="sm:w-1/2 flex flex-col">
                                 <h2 className="font-semibold text-lg text-gray-800 dark:text-gray-100 border-b-2 border-[#5671f7] font-inter pb-2">
                                 WordPress Plugin
                                 </h2>
