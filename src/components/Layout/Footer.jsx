@@ -113,7 +113,7 @@ const Footer = () => {
                     {/* Platform Links */}
                     <div className="space-x-4 mt-6">
                         <a
-                            href="https://www.fiverr.com/s/KeaXw3V"
+                            href="https://www.fiverr.com/bickrom99"
                             target="_blank"
                             rel="noopener noreferrer"
                             className="text-white bg-green-600 hover:bg-green-700 py-2 px-4 rounded-md transition duration-300 font-inter text-base"
