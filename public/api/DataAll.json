@@ -5,12 +5,42 @@
       "image": "/Images/Live-quizz-website.png",
       "Title": "Live-Quizz Website Using React",
       "desc": "Interactive React-based quiz platform offering seamless performance, responsive design, and user-friendly interface for enhanced engagement.",
+      "popup_info": {
+        "keyFeatures": [
+          "Developed an interactive quiz platform using React, offering seamless performance and a highly responsive design.",
+          "Implemented real-time user interactions with dynamic question rendering, instant feedback, and a smooth user experience.",
+          "Optimized for mobile devices with smooth transitions and an engaging, user-friendly interface."
+        ],
+        "challengeFaced": [
+          "Designing a real-time interactive quiz platform presented challenges in ensuring smooth performance with multiple users interacting at once.",
+          "Ensuring compatibility across devices while maintaining an engaging experience was also a significant hurdle."
+        ],
+        "solutionApplied": [
+          "Utilized React hooks for efficient state management and optimized the rendering process to ensure smooth user interaction.",
+          "Created a custom solution for saving user progress via local storage, ensuring users can pick up where they left off even after refreshing the page."
+        ]
+      },
       "livePreviewLink": "https://quiz-live-bickrom99.vercel.app/"
     },
     {
       "id": 2,
       "image": "/Images/WP-Fire-website.png",
       "Title": "Fire Service Website Using WordPress",
+      "popup_info": {
+        "keyFeatures": [
+          "Designed a responsive WordPress website that allows real-time updates for fire emergency services, with clear navigation and essential information.",
+          "Focused on professional and accessible design to help users quickly find vital services during emergencies.",
+          "Incorporated advanced accessibility features to ensure the site is easy to navigate for all users, especially during critical times."
+        ],
+        "challengeFaced": [
+          "One of the main challenges was ensuring that the website could handle real-time updates of emergency information without affecting the user experience.",
+          "Also, integrating an easy-to-use content management system for non-technical staff was crucial to ensuring smooth operation."
+        ],
+        "solutionApplied": [
+          "Leveraged Elementor for flexible and responsive design, and used WordPress plugins for real-time content updates.",
+          "Implemented an intuitive content management system, allowing fire department staff to easily update information without technical expertise."
+        ]
+      },
       "desc": "Efficient Fire Service website with real-time updates, clear navigation, and professional design for emergency response.",
       "livePreviewLink": "https://fire.brittosoft.com/"
     },
@@ -19,6 +49,21 @@
       "image": "/Images/Business-Card.png",
       "Title": "Digital Business Card",
       "desc": "Eco-friendly digital card showcasing professional details with sleek design and easy accessibility for impactful networking.",
+      "popup_info": {
+        "keyFeatures": [
+          "Created an eco-friendly, sleek digital business card with professional details accessible via a direct link or QR code.",
+          "Designed for easy sharing and accessible anywhere, streamlining the process of sharing contact information.",
+          "Optimized for mobile devices, ensuring that users can access the digital card seamlessly across different platforms."
+        ],
+        "challengeFaced": [
+          "The main challenge was designing a user-friendly interface that felt professional yet was simple enough to use across various devices.",
+          "Ensuring compatibility with various QR scanning apps and browsers while maintaining a smooth user experience."
+        ],
+        "solutionApplied": [
+          "Used HTML5 and CSS3 for a responsive and adaptable design that ensures the card looks great on all screen sizes.",
+          "Added JavaScript to make contact buttons clickable and integrated social media links to expand networking opportunities."
+        ]
+      },
       "livePreviewLink": "https://bickrom99.github.io/Digital-business-card2/"
     },
     {
@@ -26,6 +71,21 @@
       "image": "/Images/WP-Business_web.png",
       "Title": "Ecommerce WordPress Website For Business",
       "desc": "Feature-rich eCommerce site with secure payments, responsive design, and user-friendly navigation to boost online sales.",
+      "popup_info": {
+        "keyFeatures": [
+          "Developed a feature-rich eCommerce site with secure payment integration and easy product navigation to enhance the shopping experience.",
+          "Focused on responsive design, ensuring the site looks great on all devices and is accessible to a wide range of customers.",
+          "Integrated a streamlined checkout process and secure payment gateway for a smooth and safe transaction experience."
+        ],
+        "challengeFaced": [
+          "Creating a secure payment system that was both easy to implement and fully compliant with industry standards was a key challenge.",
+          "Ensuring the site worked seamlessly on both desktop and mobile devices, while maintaining the user experience, required extra attention to detail."
+        ],
+        "solutionApplied": [
+          "Utilized WooCommerce for payment gateway integration and ensured secure transactions using SSL encryption.",
+          "Designed with a mobile-first approach to ensure all features, including the checkout process, were optimized for small screens."
+        ]
+      },
       "livePreviewLink": "https://jenningsexec.com/"
     },
     {
@@ -33,6 +93,21 @@
       "image": "/Images/WP-Business-web2.png",
       "Title": "Ecommerce WordPress Website For Business",
       "desc": "Professional eCommerce website with mobile-friendly design, secure transactions, and seamless navigation for business growth.",
+      "popup_info": {
+        "keyFeatures": [
+          "Developed a professional eCommerce website for health services, designed for easy browsing and secure transactions.",
+          "Optimized for mobile use, ensuring a seamless shopping experience on smartphones and tablets.",
+          "Integrated advanced product search features, allowing users to easily find the items they need."
+        ],
+        "challengeFaced": [
+          "Ensuring a user-friendly interface for customers in the health service sector while maintaining trust and professionalism.",
+          "The need for mobile optimization was critical, as many users would access the site on smartphones."
+        ],
+        "solutionApplied": [
+          "Implemented a responsive design using WordPress, ensuring that the site works well on all devices.",
+          "Optimized performance by compressing images and employing lazy loading to improve the site's speed and usability."
+        ]
+      },
       "livePreviewLink": "https://healthybodysoul.net/"
     },
     {
@@ -40,6 +115,21 @@
       "image": "/Images/Blog-website.png",
       "Title": "Blog Website Design",
       "desc": "Responsive blog website optimized for content sharing, readability, and engagement to expand audience reach.",
+      "popup_info": {
+        "keyFeatures": [
+          "Designed a responsive and user-friendly blog website optimized for content sharing, readability, and engagement.",
+          "Incorporated categories, tags, and search functionality to make it easy for users to find specific content.",
+          "Added social media sharing buttons to increase post visibility and encourage user interaction."
+        ],
+        "challengeFaced": [
+          "Designing the blog layout to be visually appealing while keeping it clean and simple for users to read was a key challenge.",
+          "Ensuring the website loaded quickly despite large amounts of content was also a concern."
+        ],
+        "solutionApplied": [
+          "Utilized a custom WordPress theme to create a clean, modern design with easy navigation.",
+          "Optimized images and minimized CSS/JS files to improve the site's loading speed and enhance user experience."
+        ]
+      },
       "livePreviewLink": "https://react-blog-website-rose.vercel.app/"
     },
     {
@@ -47,6 +137,21 @@
       "image": "/Images/Ecommerce-website.png",
       "Title": "Ecommerce Website Using Custom Code",
       "desc": "Custom-coded eCommerce site offering tailored features, secure transactions, and exceptional performance for online shopping.",
+      "popup_info": {
+        "keyFeatures": [
+          "Built a custom-coded eCommerce website offering tailored features such as secure payments and advanced inventory management.",
+          "Designed with responsive layouts to ensure smooth browsing across all devices.",
+          "Optimized performance and scalability to handle a high volume of users and transactions."
+        ],
+        "challengeFaced": [
+          "The challenge was to develop a custom solution that met the specific needs of the client while ensuring scalability and performance.",
+          "Implementing a secure payment system and ensuring data protection during transactions required careful planning."
+        ],
+        "solutionApplied": [
+          "Used custom JavaScript and APIs for dynamic product management and secure payment integration.",
+          "Implemented performance optimization strategies such as lazy loading and image compression to ensure a fast and smooth experience for users."
+        ]
+      },
       "livePreviewLink": "https://commerce-website-bickrom99.vercel.app/"
     }
   ],

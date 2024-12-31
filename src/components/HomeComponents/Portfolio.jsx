@@ -9,6 +9,8 @@ gsap.registerPlugin(ScrollTrigger);
 const Portfolio = () => {
     const [portfolioData, setPortfolioData] = useState([]);
     const [showAll, setShowAll] = useState(false);
+    const [popupData, setPopupData] = useState(null); // popup data state
+    const [isPopupOpen, setIsPopupOpen] = useState(false); // Popup open/close state
 
     useEffect(() => {
         // Fetch portfolio data
@@ -26,10 +28,17 @@ const Portfolio = () => {
             });
     }, []);
 
-    // Limit the displayed items based on the showAll state
     const itemsToShow = showAll ? portfolioData : portfolioData.slice(0, 6);
 
-    // GSAP animation and hover effects
+    const handleViewDetails = (item) => {
+        setPopupData(item); // Set the clicked item data, which includes 'popup_info'
+        setIsPopupOpen(true); // Open the popup
+    };
+
+    const handleClosePopup = () => {
+        setIsPopupOpen(false); // Close the popup
+    };
+
     useEffect(() => {
         const items = gsap.utils.toArray(".portfolio-item");
 
@@ -66,7 +75,6 @@ const Portfolio = () => {
             });
         });
 
-        // Clean up event listeners when items change
         return () => {
             items.forEach((item) => {
                 const overlay = item.querySelector(".overlay");
@@ -121,13 +129,18 @@ const Portfolio = () => {
                                 {item.desc}
                             </p>
 
+                            {/* View Details button */}
                             <div className="action-buttons absolute inset-0 flex items-center justify-center gap-4 opacity-0 translate-y-20 z-10">
-                                <a className="relative bg-[#5820FF] text-white font-inter text-sm py-2 px-4 rounded-md shadow-md cursor-pointer transition-transform transform hover:scale-105 overflow-hidden group">
+                                <button
+                                    onClick={() => handleViewDetails(item)}
+                                    className="relative bg-[#5820FF] text-white font-inter text-sm py-2 px-4 rounded-md shadow-md cursor-pointer transition-transform transform hover:scale-105 overflow-hidden group"
+                                >
                                     <span className="absolute inset-0 bg-[#764AF1] w-0 transition-all duration-500 group-hover:w-full"></span>
                                     <span className="relative z-10 flex items-center gap-2">
                                         <FaEye /> View Details
                                     </span>
-                                </a>
+                                </button>
+                                {/* Live Preview link */}
                                 <a
                                     href={item.livePreviewLink}
                                     className="relative border-[1.3px] border-[#ffffff] text-white hover:text-black font-Dm_font text-sm py-2 px-4 rounded-md shadow-md cursor-pointer transition-transform transform hover:scale-105 overflow-hidden group"
@@ -141,6 +154,64 @@ const Portfolio = () => {
                         </div>
                     ))}
                 </div>
+
+                {/* Popup */}
+                {isPopupOpen && popupData && (
+                    <div className="fixed inset-0 bg-gray-600 bg-opacity-50 flex items-center justify-center z-50">
+                        <div className="bg-white p-6 rounded-lg sm:w-2/3 w-full h-full shadow-lg relative">
+                            <button
+                                onClick={handleClosePopup}
+                                className="absolute top-2 right-4 z-50 text-3xl text-gray-500 hover:text-gray-800"
+                            >
+                                ×
+                            </button>
+                            {/* Popup header with sticky */}
+                            <div className="sticky top-0 bg-white py-4 z-10">
+                                <div className="flex justify-between items-center">
+                                    <h3 className="font-bold text-lg">{popupData.Title}</h3>
+                                    <a href={popupData.livePreviewLink} className="relative bg-[#5820FF] text-white font-inter text-sm py-2 px-4 rounded-md cursor-pointer transition-transform transform hover:scale-105 overflow-hidden group">
+                                    <span className="relative z-10 flex items-center gap-2">
+                                        <FaEye /> Live
+                                    </span>
+                                        
+                                        </a>
+                                </div>
+                            </div>
+                            {/* Popup image and content */}
+                            <div className="overflow-auto max-h-[calc(100vh-20vh)]">
+                                <img src={popupData.image} alt={popupData.Title} className="w-full h-48 object-cover mt-4 rounded-md" />
+                                
+                                <div className="mt-6">
+                                    {/* Key Features: */}
+                                    <h3 className="font-inter font-medium">Key Features:</h3>
+                                    <ul className="list-disc pl-8 mt-1 mb-3 font-Dm_font text-sm leading-6">
+                                        {popupData.popup_info.keyFeatures.map((feature, index) =>  (
+                                            <li key={index}>{feature}</li>
+                                        ))
+                                        }
+                                    </ul>
+                                    {/* challengeFaced: */}
+                                    <h3 className="font-inter font-medium">Challenges Faced:</h3>
+                                    <ul className="list-disc pl-8 mt-1 mb-3 font-Dm_font text-sm leading-6">
+                                        {popupData.popup_info.challengeFaced.map((challenge, index) =>  (
+                                            <li key={index}>{challenge}</li>
+                                        ))
+                                        }
+                                    </ul>
+                                    {/* solutionApplied: */}
+                                    <h3 className="font-inter font-medium">Challenges Faced:</h3>
+                                    <ul className="list-disc pl-8 mt-1 mb-3 font-Dm_font text-sm leading-6">
+                                        {popupData.popup_info.solutionApplied.map((solution, index) =>  (
+                                            <li key={index}>{solution}</li>
+                                        ))
+                                        }
+                                    </ul>
+                                </div>
+                                
+                            </div>
+                        </div>
+                    </div>
+                )}
 
                 {/* Toggle More/Less button */}
                 <div className="flex justify-center mt-6">
