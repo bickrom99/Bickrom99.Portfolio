@@ -51,7 +51,7 @@ const About = () => {
                     <img
                         src="/Images/darkUserImage.png"
                         alt="userImage"
-                        className="relative sm:h-[350px] h-[200px] rounded-full border-[5px] border-[#f0f7ff] dark:border-[#1a1d42] dark:bg-[#1a1d42] dark:bg-opacity-40 hover:transform hover:scale-110 transition duration-300"
+                        className="relative sm:h-[350px] h-[200px] rounded-full border-[5px] border-white dark:border-[#1a1d42] dark:bg-[#1a1d42] dark:bg-opacity-40 hover:transform hover:scale-110 transition duration-300"
                         loading="lazy"
                     />
                 </div>
