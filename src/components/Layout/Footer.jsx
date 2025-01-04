@@ -32,7 +32,7 @@ const Footer = () => {
     }, []);
 
     return (
-        <div ref={footerRef} className="bg-gradient-to-b from-[#1a3b64] via-[#0d2b47] to-[#283c5e] text-white h-auto w-full py-14">
+        <div ref={footerRef} className="bg-[#1a3b64] text-white h-auto w-full py-14 dark:bg-[#0a104d] dark:bg-opacity-70">
             <div className="w-[90%] m-auto text-center">
                 {/* Name & Tagline */}
                 <div className="text-3xl font-bold font-inter mb-2">

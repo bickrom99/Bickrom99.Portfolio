@@ -4,7 +4,7 @@ import Navbar from "./components/Layout/Navbar";
 import Footer from "./components/Layout/Footer";
 
 const App = () => {
-    const [darkMode, setDarkMode] = useState(false);
+    const [darkMode, setDarkMode] = useState(true);
 
     const toggleDarkMode = () => {
         setDarkMode(!darkMode);

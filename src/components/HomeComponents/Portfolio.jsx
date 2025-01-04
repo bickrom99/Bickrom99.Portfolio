@@ -113,7 +113,7 @@ const Portfolio = () => {
                     {itemsToShow.map((item) => (
                         <div
                             key={item.id}
-                            className="portfolio-item relative bg-gradient-to-r from-[#ffffff] via-[#e8e8ff] shadow-lg rounded-lg p-4 overflow-hidden dark:bg-gradient-to-r dark:from-[#01054D] dark:to-[#010021] transform transition-transform dark:border-[1.3px] dark:border-[#F9CB15] dark:rounded-3xl dark:pb-6 dark:hover:shadow-md dark:hover:shadow-[#F6B724]"
+                            className="portfolio-item relative bg-gradient-to-r from-[#ffffff] via-[#e8e8ff] shadow-lg rounded-lg p-4 overflow-hidden dark:bg-gradient-to-r dark:from-[#01054D] dark:to-[#010021] transform transition-transform dark:border-[1.3px] dark:border-[#F9CB15] dark:rounded-3xl dark:pb-6 dark:hover:shadow-custom"
                         >
                             <div className="overlay absolute inset-0 bg-gradient-to-t from-[#2b2a2a92] to-transparent opacity-0 transition-opacity duration-300"></div>
 

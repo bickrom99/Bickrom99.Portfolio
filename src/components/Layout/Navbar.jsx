@@ -27,7 +27,7 @@ const Navbar = ({ toggleDarkMode, darkMode }) => {
     };
 
     return (
-        <header className="bg-[#fffefe] dark:bg-gray-900 opacity-95 z-10 fixed top-0 left-0 right-0 shadow-[0_4px_8px_rgba(0,0,0,0.1)]">
+        <header className="bg-[#fffefe] opacity-95 z-10 fixed top-0 left-0 right-0 shadow-[0_4px_8px_rgba(0,0,0,0.1)] dark:bg-gradient-to-t dark:from-[#101352] dark:to-[#181b54]">
             <nav className="w-[90%] m-auto flex flex-row justify-between items-center py-5">
 
                 {/* Logo */}

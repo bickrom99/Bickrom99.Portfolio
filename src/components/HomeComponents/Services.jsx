@@ -52,7 +52,7 @@ const Services = () => {
                         <div
                             key={data.id}
                             ref={(el) => (cardsRef.current[index] = el)}
-                            className={`bg-gradient-to-r from-blue-50 to-white shadow-lg rounded-lg p-6 transform transition duration-300 hover:scale-105 hover:shadow-2xl border hover:bg-blue-500 dark:bg-gradient-to-r dark:from-[#01054D] dark:to-[#010021] dark:border-[1.3px] dark:border-[#F9CB15] dark:rounded-3xl dark:pb-6 dark:hover:shadow-md dark:hover:shadow-[#F6B724] ${
+                            className={`bg-gradient-to-r from-blue-50 to-white shadow-lg rounded-lg p-6 transform transition duration-300 hover:scale-105 hover:shadow-2xl border hover:bg-blue-500 dark:bg-gradient-to-r dark:from-[#01054D] dark:to-[#010021] dark:border-[1.3px] dark:border-[#F9CB15] dark:rounded-3xl dark:pb-6  dark:hover:shadow-custom ${
                                 expandedIndex === index ? "border-blue-400 dark:border-gray-500" : "border-blue-200 dark:border-[#F9CB15]"
                             }`}
                             style={{
