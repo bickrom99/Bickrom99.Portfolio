@@ -42,7 +42,7 @@ const Navbar = ({ toggleDarkMode, darkMode }) => {
                 {/* Desktop Nav menu items */}
                 <ul className="md:flex md:flex-row flex-col gap-5 hidden">
                     {navItem.map((data, index) => (
-                        <li key={index} className="font-inter text-[.9rem]">
+                        <li key={index} className="font-inter text-[.9rem] hover:scale-105 transition-transform duration-300">
                             <Link
                                 to={data.path}
                                 smooth={true}

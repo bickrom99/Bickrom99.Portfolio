@@ -11,16 +11,26 @@
 @tailwind components;
 @tailwind utilities;
 
-/* Define dark mode styles */
-body.dark {
-  background-color: #141414;
-  color: #fff;
-}
-
 /* Define light mode styles */
 body {
   background-color: #fff;
   color: #333;
+}
+/* Dark mode video background */
+body.dark {
+  background-color: #000;
+  color: #fff;
+}
+
+/* Dark mode video background */
+body.dark .dark-mode-video-container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  pointer-events: none;
 }
 
 /* ===Skill page component style-> tailwind css custom code==== */

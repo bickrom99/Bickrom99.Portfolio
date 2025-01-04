@@ -43,29 +43,15 @@ const About = () => {
         typeEffect(); // Start the typing effect
     }, []);
 
-    useEffect(() => {
-        // GSAP Background Animation
-        gsap.to(".animated-bg", {
-            duration: 4,
-            ease: "linear",
-            backgroundPosition: "200% 100%",
-            repeat: -1,
-        });
-    }, []);
-
     return (
-        <div className="bg-[#ebeff1] dark:bg-[#2D2D2D] dark:text-white transition-all duration-300">
+        <div className="bg-[#ebeff1] dark:bg-transparent transition-all duration-300">
             <div className="relative w-[90%] m-auto h-[90vh] grid md:grid-cols-5 grid-cols-1 justify-center items-center overflow-hidden">
-                {/* User Image with Animated Background */}
+                {/* User Image Border show when dark mode gsap border animation */}
                 <div className="relative flex justify-center items-center col-span-2 sm:pt-0 pt-8 pb-2">
-                    <div
-                        className="animated-bg absolute sm:w-[230px] sm:h-[230px] w-[100px] h-[100px] rounded-full blur-2xl bg-gradient-to-r
-                        from-blue-600 via-purple-500 to-green-500 bg-[length:400%_400%] z-0"
-                    ></div>
                     <img
-                        src="/Images/userImage.jpeg"
+                        src="/Images/darkUserImage.png"
                         alt="userImage"
-                        className="relative z-0 sm:h-[350px] h-[200px]  rounded-full border-[5px] border-white shadow-md"
+                        className="relative sm:h-[350px] h-[200px] rounded-full border-[5px] border-white dark:border-[#1a1d42] shadow-md hover:transform hover:scale-110 transition duration-300"
                         loading="lazy"
                     />
                 </div>
@@ -88,7 +74,7 @@ const About = () => {
                         Whether it’s enhancing user experience or achieving better engagement, I’m here to turn your ideas into reality.
                     </p>
 
-                            {/* CTA button here */}
+                    {/* CTA button here */}
                     <div className="flex gap-5 mt-5 sm:mb-0 mb-5">
                         <a  
                             href="#contact"
@@ -106,7 +92,6 @@ const About = () => {
                             <span>View Resume</span>
                         </a>
                     </div>
-
                 </div>
             </div>
         </div>

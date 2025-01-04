@@ -135,7 +135,7 @@ const Portfolio = () => {
                                     onClick={() => handleViewDetails(item)}
                                     className="relative bg-[#5820FF] text-white font-inter text-sm py-2 px-4 rounded-md shadow-md cursor-pointer transition-transform transform hover:scale-105 overflow-hidden group"
                                 >
-                                    <span className="absolute inset-0 bg-[#764AF1] w-0 transition-all duration-500 group-hover:w-full"></span>
+                                    <span className="absolute inset-0 bg-[#764AF1z] w-0 transition-all duration-500 group-hover:w-full"></span>
                                     <span className="relative z-10 flex items-center gap-2">
                                         <FaEye /> View Details
                                     </span>
