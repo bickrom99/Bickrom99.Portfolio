@@ -29,7 +29,7 @@ const App = () => {
                     </video>
 
                     {/* Overlay with semi-transparent color */}
-                    <div className="absolute top-0 left-0 w-full h-full bg-[#0e122d] opacity-70"></div>
+                    <div className="absolute top-0 left-0 w-full h-full bg-[#111636] bg-opacity-85"></div>
                 </div>
             )}
             

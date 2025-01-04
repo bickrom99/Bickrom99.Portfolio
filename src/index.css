@@ -13,7 +13,7 @@
 
 /* Define light mode styles */
 body {
-  background-color: #fff;
+  background-color: #f0f4fa;
   color: #333;
 }
 /* Dark mode video background */
@@ -36,7 +36,7 @@ body.dark .dark-mode-video-container {
 /* ===Skill page component style-> tailwind css custom code==== */
 /* skillFullSection tailwind code */
 .Skills-button {
-  @apply flex flex-row gap-3 items-center bg-[#F7F1FD] border-[1.3px] border-[#acacac47] rounded-md py-4 px-5 transition-transform duration-300 cursor-pointer hover:scale-110 hover:bg-[#ead8fe] hover:border-[#cea8fc];
+  @apply flex flex-row gap-3 items-center bg-[#F7F1FD] border-[1.3px] border-[#acacac47] rounded-md py-4 px-5 transition-transform duration-300 cursor-pointer hover:scale-110 hover:bg-[#ead8fe] hover:border-[#cea8fc] dark:border-[#3730A3] dark:border-[1.4px] dark:bg-gradient-to-b dark:from-[#010e4ddb] dark:to-[#010034];
 }
 /* Skill icon tailwind code */
 .Skills-icon {
@@ -45,7 +45,7 @@ body.dark .dark-mode-video-container {
 /* Skill text tailwind code */
 
 .Skills-Text {
-  @apply group-hover:translate-x-2 transition-transform duration-300 font-inter font-medium sm:text-base text-sm;
+  @apply group-hover:translate-x-2 transition-transform duration-300 font-inter  font-medium sm:text-base text-sm dark:font-Dm_font;
 }
 
 /* Contact form tailwind css code */

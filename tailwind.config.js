@@ -11,7 +11,10 @@ export default {
         inter: ["Inter", "serif"],
         Dm_font: ["DM Sans", "serif"],
         Vast_shadow: ["Vast Shadow", "serif"]
-      }
+      },
+      backgroundImage: {
+        'light-gradient': 'linear-gradient(to bottom, #ffffff, #f4eafc, #e8f8ff)',
+    },
     },
   },
   plugins: [],

@@ -75,14 +75,14 @@ const Skill = () => {
     }, [activeTab]);
 
     return (
-        <div id="skills" className="bg-gradient-to-b from-[#e8f8ff] via-[#f4eafc] to-[#ffffff] dark:from-[#2d2d2d] dark:via-[#3b3b3b] dark:to-[#1A1A1A] min-h-screen py-16">
+        <div id="skills" className="dark:bg-transparent transition-all duration-300 border-t-[3px] dark:border-none min-h-screen py-16">
             <div className="w-[90%] mx-auto">
                 <div className="text-center">
                     <h2 className="font-semibold font-Vast_shadow text-2xl text-gray-800 dark:text-gray-100">
                     Technologies<span className="text-indigo-600"> & Tools</span>
                     </h2>
                     <img
-                        className="w-[70%] sm:w-[25%] m-auto mt-2"
+                        className="w-[70%] sm:w-[25%] m-auto mt-2 dark:opacity-0"
                         src="/Images/line_design.png"
                         alt="decorative"
                     />
@@ -94,7 +94,7 @@ const Skill = () => {
                     <button
                         ref={(el) => (tabRef.current[0] = el)} // Assign ref
                         onClick={() => setActiveTab("frontend")}
-                        className={`flex items-center gap-2 justify-center font-inter text-sm cursor-pointer py-2 rounded-md px-4 shadow-md transition-all duration-300 ease-in-out transform hover:scale-105 ${activeTab === "frontend" ? "bg-gradient-to-r from-[#6d28d9] to-[#b794f4] text-white" : "bg-[#f0f9ff] text-gray-800"}`}
+                        className={`flex items-center gap-2 justify-center font-inter text-sm cursor-pointer py-2 rounded-md px-4 shadow-md transition-all duration-300 ease-in-out transform hover:scale-105 ${activeTab === "frontend" ? "bg-gradient-to-r from-[#6d28d9] to-[#b794f4] text-white dark:bg-gradient-to-r dark:from-[#25238a] dark:to-[#0b071f]" : "bg-[#f0f9ff] text-gray-800"}`}
                     >
                         Frontend Dev
                     </button>
@@ -103,7 +103,7 @@ const Skill = () => {
                     <button
                         ref={(el) => (tabRef.current[1] = el)} // Assign ref
                         onClick={() => setActiveTab("wordpress")}
-                        className={`flex items-center gap-2 justify-center font-inter text-sm cursor-pointer py-2 rounded-md px-4 shadow-md transition-all duration-300 ease-in-out transform hover:scale-105 ${activeTab === "wordpress" ? "bg-gradient-to-r from-[#6d28d9] to-[#b794f4] text-white" : "bg-[#f0f9ff] text-gray-800"}`}
+                        className={`flex items-center gap-2 justify-center font-inter text-sm cursor-pointer py-2 rounded-md px-4 shadow-md transition-all duration-300 ease-in-out transform hover:scale-105 ${activeTab === "wordpress" ? "bg-gradient-to-r from-[#2724e3] to-[#b794f4] dark:bg-gradient-to-r dark:from-[#25238a] dark:to-[#0b071f]  text-white" : "bg-[#f0f9ff] text-gray-800 "}`}
                     >
                         WordPress Dev
                     </button>

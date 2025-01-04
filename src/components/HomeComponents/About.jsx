@@ -44,23 +44,23 @@ const About = () => {
     }, []);
 
     return (
-        <div className="bg-[#ebeff1] dark:bg-transparent transition-all duration-300">
+        <div className="dark:bg-transparent transition-all duration-300">
             <div className="relative w-[90%] m-auto h-[90vh] grid md:grid-cols-5 grid-cols-1 justify-center items-center overflow-hidden">
                 {/* User Image Border show when dark mode gsap border animation */}
                 <div className="relative flex justify-center items-center col-span-2 sm:pt-0 pt-8 pb-2">
                     <img
                         src="/Images/darkUserImage.png"
                         alt="userImage"
-                        className="relative sm:h-[350px] h-[200px] rounded-full border-[5px] border-white dark:border-[#1a1d42] shadow-md hover:transform hover:scale-110 transition duration-300"
+                        className="relative sm:h-[350px] h-[200px] rounded-full border-[5px] border-[#f0f7ff] dark:border-[#1a1d42] dark:bg-[#1a1d42] dark:bg-opacity-40 hover:transform hover:scale-110 transition duration-300"
                         loading="lazy"
                     />
                 </div>
 
                 {/* Admin Information */}
                 <div className="relative text-black dark:text-white sm:ml-8 col-span-3 sm:px-0 px-4">
-                    <h4 className="text-sm font-Dm_font font-medium text-[#263143]">👋 Hello there, I am Bickrom Chandro Sen</h4>
+                    <h4 className="text-sm font-Dm_font font-medium text-[#263143] dark:text-white dark:text-base">👋 Hello there, I am Bickrom Chandro Sen</h4>
                     {/* Animation text */}
-                    <h2 className="font-Dm_font font-semibold sm:text-3xl text-xl pt-3">
+                    <h2 className="font-Dm_font font-semibold sm:text-3xl text-xl pt-3 dark:text-[#F6B724] pb-2">
                         <span
                             ref={textRef}
                             id="dynamic-text"
@@ -68,7 +68,7 @@ const About = () => {
                         ></span>
                     </h2>
                     {/* Personal Information */}
-                    <p className="text-[1rem] font-Dm_font font-normal leading-6 pt-2 text-[#151b25] sm:text-start text-justify">
+                    <p className="text-[1rem] font-Dm_font font-normal leading-7 pt-2 text-[#151b25] sm:text-start text-justify dark:text-white pb-2">
                         As a skilled web developer, I specialize in building tailored websites that are visually appealing, responsive, and optimized for performance. 
                         My mission is to help you establish a strong digital presence by crafting solutions that align with your brand identity and business objectives. 
                         Whether it’s enhancing user experience or achieving better engagement, I’m here to turn your ideas into reality.
@@ -78,7 +78,7 @@ const About = () => {
                     <div className="flex gap-5 mt-5 sm:mb-0 mb-5">
                         <a  
                             href="#contact"
-                            className="group flex items-center gap-2 justify-center bg-[#5820FF] text-white font-Dm_font text-sm py-3 cursor-pointer rounded-md px-4 shadow-md transition-transform duration-300 ease-in-out transform hover:scale-110 hover:shadow-lg"
+                            className="group flex items-center gap-2 justify-center bg-[#5820FF] text-white font-Dm_font text-sm py-3 cursor-pointer rounded-md px-4 shadow-md transition-transform duration-300 ease-in-out transform hover:scale-110 hover:shadow-lg dark:bg-transparent dark:border-[1.4px] dark:border-[#F5C816] dark:py-1 dark:rounded-xl dark:hover:bg-[#F5C816] "
                         >
                             <span>Get Started</span>
                             <FaArrowRightFromBracket className="group-hover:translate-x-1 transition-transform duration-300" />
@@ -86,7 +86,7 @@ const About = () => {
                         
                         {/* View Resume Button */}
                         <a
-                            className="group flex items-center gap-2 justify-center border-[1.3px] border-gray-400 font-Dm_font text-sm cursor-pointer py-2 rounded-md px-4 shadow-lg transition-transform duration-300 ease-in-out transform hover:scale-110 hover:shadow-lg"
+                            className="group flex items-center gap-2 justify-center border-[1.3px] border-gray-400 font-Dm_font text-sm cursor-pointer py-2 rounded-md px-4 shadow-lg transition-transform duration-300 ease-in-out transform hover:scale-110 hover:shadow-lg dark:bg-transparent dark:border-[1.4px] dark:border-[#F6B724] dark:py-1 dark:rounded-xl dark:hover:bg-[#F6B724] "
                         >
                             <FaDownload className="group-hover:translate-y-1 transition-transform duration-300" />
                             <span>View Resume</span>

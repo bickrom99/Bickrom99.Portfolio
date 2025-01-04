@@ -25,7 +25,7 @@ const Faq = () => {
     };
 
     return (
-        <div className="bg-gradient-to-b from-[#f8f9fa] via-[#eaf4fc] to-[#e8faff] dark:from-[#1A1A1A] dark:via-[#2D2D2D] dark:to-[#2A2A2A] transition-all duration-300 py-16 min-h-screen">
+        <div className="dark:bg-transparent transition-all duration-300 border-t-[3px] dark:border-none py-16 min-h-screen">
             <div className="w-[90%] mx-auto">
                 {/* Section Heading */}
                 <div className="text-center mb-8">

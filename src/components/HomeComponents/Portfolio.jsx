@@ -96,14 +96,14 @@ const Portfolio = () => {
     }, [itemsToShow]);
 
     return (
-        <div id="projects" className="bg-gradient-to-b from-[#ffffff] via-[#f4eafc] to-[#e8f8ff] dark:from-[#1A1A1A] dark:via-[#2D2D2D] dark:to-[#3A3A3A] transition-all duration-300">
+        <div id="projects" className="dark:bg-transparent transition-all duration-300 border-t-[3px] dark:border-none">
             <div className="w-[90%] m-auto py-8">
                 <div className="text-center">
                     <h2 className="font-semibold font-Vast_shadow text-2xl text-gray-800 dark:text-gray-100 pt-8">
                         My Recent <span className="text-indigo-600">Portfolio</span>
                     </h2>
                     <img
-                        className="w-[10%] m-auto mt-2"
+                        className="w-[20%] dark:opacity-0 m-auto mt-2"
                         src="/Images/line_design.png"
                         alt="decorative"
                     />
@@ -113,19 +113,19 @@ const Portfolio = () => {
                     {itemsToShow.map((item) => (
                         <div
                             key={item.id}
-                            className="portfolio-item relative bg-gradient-to-r from-[#ffffff] via-[#e8e8ff] shadow-lg rounded-lg p-4 overflow-hidden dark:bg-gradient-to-r dark:from-[#2D2D2D] dark:to-[#444444] transform transition-transform"
+                            className="portfolio-item relative bg-gradient-to-r from-[#ffffff] via-[#e8e8ff] shadow-lg rounded-lg p-4 overflow-hidden dark:bg-gradient-to-r dark:from-[#01054D] dark:to-[#010021] transform transition-transform dark:border-[1.3px] dark:border-[#F9CB15] dark:rounded-3xl dark:pb-6 dark:hover:shadow-md dark:hover:shadow-[#F6B724]"
                         >
                             <div className="overlay absolute inset-0 bg-gradient-to-t from-[#2b2a2a92] to-transparent opacity-0 transition-opacity duration-300"></div>
 
                             <img
                                 src={item.image}
                                 alt={item.Title}
-                                className="w-full h-48 object-cover rounded-md"
+                                className="w-full h-48 object-cover rounded-md dark:rounded-2xl pb-2 z-10"
                             />
-                            <h3 className="font-inter font-bold mt-4 text-gray-800 dark:text-gray-100 z-10 relative">
+                            <h3 className="font-inter font-bold mt-4 text-gray-800 dark:text-[#e6c854] z-10 relative">
                                 {item.Title}
                             </h3>
-                            <p className="text-sm font-Dm_font text-gray-600 dark:text-gray-400 mt-2 z-10 relative">
+                            <p className="text-sm font-Dm_font dark:font-inter text-gray-600 dark:text-white mt-2 z-10 relative">
                                 {item.desc}
                             </p>
 
@@ -133,9 +133,9 @@ const Portfolio = () => {
                             <div className="action-buttons absolute inset-0 flex items-center justify-center gap-4 opacity-0 translate-y-20 z-10">
                                 <button
                                     onClick={() => handleViewDetails(item)}
-                                    className="relative bg-[#5820FF] text-white font-inter text-sm py-2 px-4 rounded-md shadow-md cursor-pointer transition-transform transform hover:scale-105 overflow-hidden group"
+                                    className="relative bg-[#5820FF] text-white font-inter text-sm py-2 px-4 rounded-md shadow-md cursor-pointer transition-transform transform hover:scale-105 overflow-hidden group "
                                 >
-                                    <span className="absolute inset-0 bg-[#764AF1z] w-0 transition-all duration-500 group-hover:w-full"></span>
+                                    <span className="absolute inset-0 bg-[#764AF1] w-0 transition-all duration-500 group-hover:w-full"></span>
                                     <span className="relative z-10 flex items-center gap-2">
                                         <FaEye /> View Details
                                     </span>
@@ -214,10 +214,10 @@ const Portfolio = () => {
                 )}
 
                 {/* Toggle More/Less button */}
-                <div className="flex justify-center mt-6">
+                <div className="flex justify-center pt-10">
                     <button
                         onClick={() => setShowAll(!showAll)}
-                        className="group flex items-center gap-2 justify-center border-[1.3px] border-gray-400 font-Dm_font text-sm cursor-pointer py-2 rounded-md px-4 shadow-lg transition-transform duration-300 ease-in-out transform hover:scale-110 hover:shadow-lg"
+                        className="group flex items-center gap-2 justify-center border-[1.3px] border-gray-400 font-Dm_font text-sm cursor-pointer py-2 rounded-md px-4 shadow-lg transition-transform duration-300 ease-in-out transform hover:scale-110 hover:shadow-lg dark:border-[#e7b913] dark:hover:bg-[#e7b913] dark:hover:text-black"
                     >
                         {showAll ? (
                             <>

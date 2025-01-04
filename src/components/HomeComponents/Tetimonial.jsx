@@ -25,7 +25,7 @@ const Testimonial = () => {
         : testimonialData.slice(0, 8);
 
     return (
-        <div className="pt-8 pb-10 dark:bg-[#0f0f0f]">
+        <div className="pt-8 pb-10 dark:bg-transparent transition-all duration-300 border-t-[3px] dark:border-none">
             <div className="w-[90%] m-auto">
                 <h2 className="font-medium font-inter text-2xl text-center dark:text-gray-100 pb-2">
                 Hear From Those <span className="text-indigo-600 font-Vast_shadow font-semibold">Who Trusted Us</span>

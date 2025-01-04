@@ -42,7 +42,7 @@ const Contact = () => {
   };
 
   return (
-    <div id="contact" className="bg-gradient-to-b from-[#E8F9FE] via-[#dff6fd] to-[#E8F9FE] dark:from-[#1A1A1A] dark:via-[#2D2D2D] dark:to-[#3A3A3A] transition-all duration-300 py-16">
+    <div id="contact" className="dark:bg-transparent transition-all duration-300 border-t-[3px] dark:border-none py-16">
       <div className="w-[90%] m-auto">
         <div className="pb-4">
           <h2 className="font-medium font-inter text-2xl text-center dark:text-gray-100 pb-2">
