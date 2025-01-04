@@ -34,11 +34,12 @@ const Testimonial = () => {
                 Real Stories. Genuine Feedback. Discover how we make a difference.
                 </p>
 
+                    {/* ----testimonial card here----- */}
                 <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 m-auto">
                 {testimonialsToShow.map((testimonial, index) => (
                     <div
                     key={index}
-                    className="shadow rounded-lg dark:bg-slate-700 hover:shadow-lg transition-transform duration-300 cursor-text hover:scale-105"
+                    className="shadow rounded-lg dark:bg-gradient-to-t dark:from-[#1b1e4b] dark:border-[1.4px] dark:border-[#2e269c] dark:hover:shadow-md dark:hover:shadow-[#2e269c] hover:shadow-lg transition-transform duration-300 cursor-text hover:scale-105"
                     >
                     <div className="p-3">
                         <div className="flex flex-row gap-4 justify-start items-center pb-4">
@@ -48,16 +49,16 @@ const Testimonial = () => {
                             alt="profile"
                         />
                         <div>
-                            <h2 className="text-base font-inter font-semibold dark:text-[#e1e1e1]">
+                            <h2 className="text-base font-inter font-semibold dark:text-white">
                             {testimonial.name}
                             </h2>
-                            <h4 className="text-sm font-medium font-inter text-gray-600">
-                            from <span className="text-[#5a3ee8]">{testimonial.review}</span>
+                            <h4 className="text-sm font-medium font-inter text-gray-600 dark:text-gray-300">
+                            from <span className="text-[#5a3ee8] dark:text-[#5232f1]">{testimonial.review}</span>
                             </h4>
                             <div className="text-sm">⭐⭐⭐⭐⭐</div>
                         </div>
                         </div>
-                        <p className="text-xs font-Dm_font  dark:text-[#b3b3b3] text-gray-600 pb-3">
+                        <p className="text-xs font-Dm_font  dark:text-[#e3e3e3] text-gray-600 pb-3">
                         {testimonial.description}
                         </p>
                     </div>
@@ -68,7 +69,7 @@ const Testimonial = () => {
                 <div className="flex justify-center mt-6">
                 <button
                     onClick={() => setShowAll(!showAll)}
-                    className="flex items-center justify-center shadow shadow-slate-200 border-[1.3px] border-gray-300 rounded-xl py-2 px-5 font-roboto font-medium text-xs hover:shadow-lg hover:border-[#4d43db] hover:text-sm hover:transition-all hover:transform hover:duration-300"
+                    className="flex items-center justify-center shadow shadow-slate-200 dark:shadow-none border-[1.3px] border-gray-300 rounded-xl py-2 px-5 font-roboto font-medium text-xs hover:shadow-lg hover:border-[#4d43db] hover:text-sm hover:transition-all hover:transform hover:duration-300 dark:border-[#e7b913] dark:hover:bg-[#e7b913] dark:hover:text-black"
                 >
                     {showAll ? (
                     <>

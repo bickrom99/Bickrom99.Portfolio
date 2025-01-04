@@ -60,7 +60,7 @@ const About = () => {
                 <div className="relative text-black dark:text-white sm:ml-8 col-span-3 sm:px-0 px-4">
                     <h4 className="text-sm font-Dm_font font-medium text-[#263143] dark:text-white dark:text-base">👋 Hello there, I am Bickrom Chandro Sen</h4>
                     {/* Animation text */}
-                    <h2 className="font-Dm_font font-semibold sm:text-3xl text-xl pt-3 dark:text-[#F6B724] pb-2">
+                    <h2 className="font-Dm_font font-semibold sm:text-3xl text-xl pt-3 dark:text-[#F6B724] dark:text-4xl">
                         <span
                             ref={textRef}
                             id="dynamic-text"
@@ -68,7 +68,7 @@ const About = () => {
                         ></span>
                     </h2>
                     {/* Personal Information */}
-                    <p className="text-[1rem] font-Dm_font font-normal leading-7 pt-2 text-[#151b25] sm:text-start text-justify dark:text-white pb-2">
+                    <p className="text-[1rem] font-Dm_font font-normal leading-6 pt-2 text-[#151b25] sm:text-start text-justify dark:text-white">
                         As a skilled web developer, I specialize in building tailored websites that are visually appealing, responsive, and optimized for performance. 
                         My mission is to help you establish a strong digital presence by crafting solutions that align with your brand identity and business objectives. 
                         Whether it’s enhancing user experience or achieving better engagement, I’m here to turn your ideas into reality.

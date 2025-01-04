@@ -14,7 +14,10 @@ export default {
       },
       backgroundImage: {
         'light-gradient': 'linear-gradient(to bottom, #ffffff, #f4eafc, #e8f8ff)',
-    },
+      },
+      boxShadow: {
+        custom: '0 0 3px #ffdb4d, 0 0 6px #ffaf45, 0 0 9px #ff8225',
+      },
     },
   },
   plugins: [],

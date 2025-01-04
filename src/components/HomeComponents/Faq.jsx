@@ -29,11 +29,11 @@ const Faq = () => {
             <div className="w-[90%] mx-auto">
                 {/* Section Heading */}
                 <div className="text-center mb-8">
-                    <h2 className="text-3xl font-bold text-gray-800 dark:text-gray-200">
+                    <h2 className="text-2xl font-bold text-gray-800 dark:text-gray-200 font-Vast_shadow">
                         FAQ’s <span className="text-blue-600">Section</span>
                     </h2>
-                    <img src="/Images/line_design.png" alt="line" className="w-[15%] m-auto" />
-                    <p className="mt-2 text-gray-600 dark:text-gray-400 font-medium text-lg">
+                    <img src="/Images/line_design.png" alt="line" className="w-[15%] m-auto dark:opacity-0" />
+                    <p className="mt-2 dark:mt-0 text-gray-600 dark:text-gray-300 font-medium text-lg">
                         Frequently Asked Questions for better understanding
                     </p>
                 </div>
@@ -44,14 +44,14 @@ const Faq = () => {
                         faqData.map((faq, index) => (
                             <div
                                 key={faq.id}
-                                className="bg-white dark:bg-gray-800 shadow rounded-lg overflow-hidden transition-all"
+                                className="bg-white dark:bg-gradient-to-b dark:from-[#161b3f] dark:to-[#1d1a50] shadow rounded-lg overflow-hidden transition-all"
                             >
                                 {/* Question Section */}
                                 <div
                                     onClick={() => handleToggle(index)}
-                                    className="p-4 flex items-center justify-between cursor-pointer hover:bg-gray-100 dark:hover:bg-gray-700 transition-all"
+                                    className="p-4 flex items-center justify-between cursor-pointer hover:bg-gray-100 dark:hover:bg-[#151243] transition-all"
                                 >
-                                    <h3 className="text-lg font-semibold text-gray-800 dark:text-gray-200">
+                                    <h3 className="text-lg font-semibold text-gray-800 dark:text-[#d4d4d4] dark:font-Dm_font">
                                         {faq.Question}
                                     </h3>
                                     {activeIndex === index ? (

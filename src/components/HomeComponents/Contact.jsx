@@ -48,20 +48,20 @@ const Contact = () => {
           <h2 className="font-medium font-inter text-2xl text-center dark:text-gray-100 pb-2">
             Get in Touch <span className="text-indigo-600 font-Vast_shadow font-semibold text-3xl">with me</span>
           </h2>
-          <p className="text-center text-gray-600 pb-6 font-Dm_font font-medium">
+          <p className="text-center text-gray-600 pb-6 font-Dm_font font-medium dark:text-gray-300">
             Have a question or need assistance? Fill out the form below, and we’ll respond promptly!
           </p>
         </div>
 
-        <div className="flex flex-wrap gap-y-8 gap-x-6">
+        <div className="flex flex-wrap gap-y-8 gap-x-6 dark:gap-x-12">
           {/* Contact Form */}
           <div className="w-full md:w-[60%]">
             <form
               ref={form}
-              className="w-full bg-gradient-to-t from-[#89b0f961] via-[#19c7e65d] to-[#89b0f944] py-6 px-6 rounded"
+              className="w-full bg-gradient-to-t from-[#89b0f961] via-[#19c7e65d] to-[#89b0f944] py-6 px-6 rounded dark:bg-gradient-to-b dark:to-[#101145] dark:via-[#101145] dark:from-[#132b64] dark:rounded-2xl dark:shadow-custom"
               onSubmit={sendEmail}
             >
-              <h2 className="text-center text-2xl font-iner font-semibold pb-4 text-[#fe3ec4]">Contact Me</h2>
+              <h2 className="text-center text-2xl font-iner font-semibold pb-4 text-[#fe3ec4] dark:text-[#fcb32d]">Contact Me</h2>
               {/* Name */}
               <div className="pb-4">
                 <input
@@ -140,7 +140,7 @@ const Contact = () => {
 
               <button
                 type="submit"
-                className="bg-blue-600 text-white w-full py-2 font-inter rounded transition-transform duration-300 hover:scale-105 hover:bg-blue-500"
+                className="bg-blue-600 text-white w-full py-2 font-inter rounded transition-transform duration-300 hover:scale-105 hover:bg-blue-500 dark:bg-[#3730A3]"
               >
                 Send Message
               </button>
@@ -149,14 +149,14 @@ const Contact = () => {
           </div>
 
           {/* Information & Google Map */}
-          <div className="w-full md:w-[35%] bg-white shadow-md p-6 rounded">
+          <div className="w-full md:w-[35%] bg-white shadow-md p-6 rounded dark:bg-gradient-to-b dark:to-[#101145] dark:via-[#101145] dark:from-[#132b64] dark:rounded-2xl dark:shadow-custom">
             <div className="flex flex-row gap-x-4">
-              <h2 className="text-lg font-semibold text-gray-800 font-inter">Bickrom Chandro Sen</h2>
-              <span className="inline-block bg-[#1d2f69] text-white text-sm font-medium py-1 px-3 rounded-full font-Dm_font">
+              <h2 className="text-lg font-semibold text-gray-800 font-inter dark:text-white">Bickrom Chandro Sen</h2>
+              <span className="inline-block bg-[#1d2f69] dark:bg-[#2020b0] text-white text-sm font-medium py-1 px-3 rounded-full font-Dm_font">
                 Web Developer
               </span>
             </div>
-                <p className="text-gray-600 mt-2 font-Dm_font text-sm">
+                <p className="text-gray-600 mt-2 font-Dm_font text-sm dark:text-gray-300">
                 Crafting seamless digital experiences with precision and creativity.  
                 Empowering brands to thrive online with tailored web solutions.  
               </p>
