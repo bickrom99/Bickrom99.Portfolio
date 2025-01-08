@@ -158,7 +158,7 @@ const Portfolio = () => {
                 {/* Popup */}
                 {isPopupOpen && popupData && (
                     <div className="fixed inset-0 bg-gray-600 bg-opacity-50 flex items-center justify-center z-50">
-                        <div className="bg-white p-6 rounded-lg sm:w-2/3 w-full h-full shadow-lg relative">
+                        <div className="bg-white dark:bg-[#0F1343] p-6 rounded-lg sm:w-2/3 w-full h-full shadow-lg relative">
                             <button
                                 onClick={handleClosePopup}
                                 className="absolute top-2 right-4 z-50 text-3xl text-gray-500 hover:text-gray-800"
@@ -166,7 +166,7 @@ const Portfolio = () => {
                                 ×
                             </button>
                             {/* Popup header with sticky */}
-                            <div className="sticky top-0 bg-white py-4 z-10">
+                            <div className="sticky top-0 bg-white dark:bg-[#0F1343] py-4 z-10">
                                 <div className="flex justify-between items-center">
                                     <h3 className="font-bold text-lg">{popupData.Title}</h3>
                                     <a href={popupData.livePreviewLink} className="relative bg-[#5820FF] text-white font-inter text-sm py-2 px-4 rounded-md cursor-pointer transition-transform transform hover:scale-105 overflow-hidden group">
@@ -183,7 +183,7 @@ const Portfolio = () => {
                                 
                                 <div className="mt-6">
                                     {/* Key Features: */}
-                                    <h3 className="font-inter font-medium">Key Features:</h3>
+                                    <h3 className="font-inter font-medium dark:text-yellow-500">Key Features:</h3>
                                     <ul className="list-disc pl-8 mt-1 mb-3 font-Dm_font text-sm leading-6">
                                         {popupData.popup_info.keyFeatures.map((feature, index) =>  (
                                             <li key={index}>{feature}</li>
@@ -191,7 +191,7 @@ const Portfolio = () => {
                                         }
                                     </ul>
                                     {/* challengeFaced: */}
-                                    <h3 className="font-inter font-medium">Challenges Faced:</h3>
+                                    <h3 className="font-inter font-medium dark:text-yellow-500">Challenges Faced:</h3>
                                     <ul className="list-disc pl-8 mt-1 mb-3 font-Dm_font text-sm leading-6">
                                         {popupData.popup_info.challengeFaced.map((challenge, index) =>  (
                                             <li key={index}>{challenge}</li>
@@ -199,7 +199,7 @@ const Portfolio = () => {
                                         }
                                     </ul>
                                     {/* solutionApplied: */}
-                                    <h3 className="font-inter font-medium">Challenges Faced:</h3>
+                                    <h3 className="font-inter font-medium dark:text-yellow-500">Challenges Faced:</h3>
                                     <ul className="list-disc pl-8 mt-1 mb-3 font-Dm_font text-sm leading-6">
                                         {popupData.popup_info.solutionApplied.map((solution, index) =>  (
                                             <li key={index}>{solution}</li>
