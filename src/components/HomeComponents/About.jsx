@@ -86,6 +86,7 @@ const About = () => {
                         
                         {/* View Resume Button */}
                         <a
+                            href="/Images/Bickrom Chandro Sen- bickrom99.pdf"
                             className="group flex items-center gap-2 justify-center border-[1.3px] border-gray-400 font-Dm_font text-sm cursor-pointer py-2 rounded-md px-4 shadow-lg transition-transform duration-300 ease-in-out transform hover:scale-110 hover:shadow-lg dark:bg-transparent dark:border-[1.4px] dark:border-[#F6B724] dark:py-1 dark:rounded-xl dark:hover:bg-[#F6B724] "
                         >
                             <FaDownload className="group-hover:translate-y-1 transition-transform duration-300" />
