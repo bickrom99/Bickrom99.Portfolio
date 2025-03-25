@@ -49,7 +49,7 @@ const About = () => {
                 {/* User Image Border show when dark mode gsap border animation */}
                 <div className="relative flex justify-center items-center col-span-2 sm:pt-0 pt-8 pb-2">
                     <img
-                        src="/Images/darkUserImage.png"
+                        src="/public/Images/Owner.jpg"
                         alt="userImage"
                         className="relative sm:h-[350px] h-[200px] rounded-full border-[5px] border-white dark:border-[#1a1d42] dark:bg-[#1a1d42] dark:bg-opacity-40 hover:transform hover:scale-110 transition duration-300"
                         loading="lazy"
