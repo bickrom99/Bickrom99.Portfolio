@@ -2,25 +2,49 @@
   "Portfolio": [
     {
       "id": 1,
-      "image": "/Images/Live-quizz-website.png",
-      "Title": "Live-Quizz Website Using React",
-      "desc": "Interactive React-based quiz platform offering seamless performance, responsive design, and user-friendly interface for enhanced engagement.",
+      "image": "/Images/USA-client-blog.png",
+      "Title": "Construction Blog Website for USA Client (Fiverr Project)",
+      "desc": "Modern and responsive blog website built for a USA-based client via Fiverr, featuring clean UI, SEO optimization, and full WordPress CMS integration.",
       "popup_info": {
         "keyFeatures": [
-          "Developed an interactive quiz platform using React, offering seamless performance and a highly responsive design.",
-          "Implemented real-time user interactions with dynamic question rendering, instant feedback, and a smooth user experience.",
-          "Optimized for mobile devices with smooth transitions and an engaging, user-friendly interface."
+          "Developed a fully responsive blog website using WordPress, tailored for a USA-based client.",
+          "Implemented an elegant, minimal UI design focused on readability and user engagement.",
+          "Integrated SEO-friendly structure, custom blog post layouts, and easy-to-manage backend using Elementor Pro.",
+          "Ensured fast loading time, mobile responsiveness, and browser compatibility across all devices."
         ],
         "challengeFaced": [
-          "Designing a real-time interactive quiz platform presented challenges in ensuring smooth performance with multiple users interacting at once.",
-          "Ensuring compatibility across devices while maintaining an engaging experience was also a significant hurdle."
+          "Client needed a unique and modern layout that stood out from typical blog templates.",
+          "Ensuring the blog structure was optimized for both readers and search engines posed a design and technical challenge."
         ],
         "solutionApplied": [
-          "Utilized React hooks for efficient state management and optimized the rendering process to ensure smooth user interaction.",
-          "Created a custom solution for saving user progress via local storage, ensuring users can pick up where they left off even after refreshing the page."
+          "Customized a WordPress theme using Elementor Pro to meet client-specific design preferences.",
+          "Structured content with semantic HTML and used SEO best practices to boost organic reach.",
+          "Tested and optimized across devices for smooth performance and consistent layout rendering."
         ]
       },
-      "livePreviewLink": "https://quiz-live-bickrom99.vercel.app/"
+      "livePreviewLink": "https://alabamamodular.homes/"
+    },
+    {
+      "id": 2,
+      "image": "/Images/WP-Business-web2.png",
+      "Title": "Ecommerce WordPress Website For Business",
+      "desc": "Professional eCommerce website with mobile-friendly design, secure transactions, and seamless navigation for business growth.",
+      "popup_info": {
+        "keyFeatures": [
+          "Developed a professional eCommerce website for health services, designed for easy browsing and secure transactions.",
+          "Optimized for mobile use, ensuring a seamless shopping experience on smartphones and tablets.",
+          "Integrated advanced product search features, allowing users to easily find the items they need."
+        ],
+        "challengeFaced": [
+          "Ensuring a user-friendly interface for customers in the health service sector while maintaining trust and professionalism.",
+          "The need for mobile optimization was critical, as many users would access the site on smartphones."
+        ],
+        "solutionApplied": [
+          "Implemented a responsive design using WordPress, ensuring that the site works well on all devices.",
+          "Optimized performance by compressing images and employing lazy loading to improve the site's speed and usability."
+        ]
+      },
+      "livePreviewLink": "https://healthybodysoul.net/"
     },
     {
       "id": 2,
@@ -89,28 +113,6 @@
       "livePreviewLink": "https://jenningsexec.com/"
     },
     {
-      "id": 5,
-      "image": "/Images/WP-Business-web2.png",
-      "Title": "Ecommerce WordPress Website For Business",
-      "desc": "Professional eCommerce website with mobile-friendly design, secure transactions, and seamless navigation for business growth.",
-      "popup_info": {
-        "keyFeatures": [
-          "Developed a professional eCommerce website for health services, designed for easy browsing and secure transactions.",
-          "Optimized for mobile use, ensuring a seamless shopping experience on smartphones and tablets.",
-          "Integrated advanced product search features, allowing users to easily find the items they need."
-        ],
-        "challengeFaced": [
-          "Ensuring a user-friendly interface for customers in the health service sector while maintaining trust and professionalism.",
-          "The need for mobile optimization was critical, as many users would access the site on smartphones."
-        ],
-        "solutionApplied": [
-          "Implemented a responsive design using WordPress, ensuring that the site works well on all devices.",
-          "Optimized performance by compressing images and employing lazy loading to improve the site's speed and usability."
-        ]
-      },
-      "livePreviewLink": "https://healthybodysoul.net/"
-    },
-    {
       "id": 6,
       "image": "/Images/Blog-website.png",
       "Title": "Blog Website Design",
@@ -153,6 +155,28 @@
         ]
       },
       "livePreviewLink": "https://commerce-website-bickrom99.vercel.app/"
+    },
+    {
+      "id": 8,
+      "image": "/Images/Live-quizz-website.png",
+      "Title": "Live-Quizz Website Using React",
+      "desc": "Interactive React-based quiz platform offering seamless performance, responsive design, and user-friendly interface for enhanced engagement.",
+      "popup_info": {
+        "keyFeatures": [
+          "Developed an interactive quiz platform using React, offering seamless performance and a highly responsive design.",
+          "Implemented real-time user interactions with dynamic question rendering, instant feedback, and a smooth user experience.",
+          "Optimized for mobile devices with smooth transitions and an engaging, user-friendly interface."
+        ],
+        "challengeFaced": [
+          "Designing a real-time interactive quiz platform presented challenges in ensuring smooth performance with multiple users interacting at once.",
+          "Ensuring compatibility across devices while maintaining an engaging experience was also a significant hurdle."
+        ],
+        "solutionApplied": [
+          "Utilized React hooks for efficient state management and optimized the rendering process to ensure smooth user interaction.",
+          "Created a custom solution for saving user progress via local storage, ensuring users can pick up where they left off even after refreshing the page."
+        ]
+      },
+      "livePreviewLink": "https://quiz-live-bickrom99.vercel.app/"
     }
   ],
   "Services": [
@@ -230,6 +254,13 @@
     }
   ],
   "Testimonial": [
+    {
+      "name": "Mcdcodedesign",
+      "country": "United States",
+      "image": "/Testimonial/mcd.jpg",
+      "description": "@Bickrom99 seems to have a great understanding of using Elementor to build websites. It was our first time working together and maybe we might run it back again in the future. If you need help with your next wordpress project send @Bickrom99 a DM!",
+      "review": "Fiverr"
+    },
     {
       "name": "Alice M.",
       "country": "United States",

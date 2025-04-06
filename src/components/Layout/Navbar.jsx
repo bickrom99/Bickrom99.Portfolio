@@ -1,7 +1,7 @@
 /* eslint-disable react/prop-types */
-import { HashLink as Link } from 'react-router-hash-link'; // react-router-hash-link 
-import { FaDev, FaGithub, FaLinkedin, FaMoon, FaSun, FaBars, FaWindowClose } from "react-icons/fa";
 import { useState } from 'react'; // For managing active state
+import { FaBars, FaDev, FaGithub, FaLinkedin, FaMoon, FaSun, FaWindowClose } from "react-icons/fa";
+import { HashLink as Link } from 'react-router-hash-link'; // react-router-hash-link 
 
 const Navbar = ({ toggleDarkMode, darkMode }) => {
     const [activeLink, setActiveLink] = useState("#home"); 
@@ -42,7 +42,7 @@ const Navbar = ({ toggleDarkMode, darkMode }) => {
                 {/* Desktop Nav menu items */}
                 <ul className="md:flex md:flex-row flex-col gap-5 hidden">
                     {navItem.map((data, index) => (
-                        <li key={index} className="font-inter text-[.9rem] hover:scale-105 transition-transform duration-300">
+                        <li key={index} className="font-inter font-medium text-[1rem] hover:scale-105 transition-transform duration-300">
                             <Link
                                 to={data.path}
                                 smooth={true}
@@ -68,7 +68,7 @@ const Navbar = ({ toggleDarkMode, darkMode }) => {
                     {/* Dark mode toggle */}
                     <button
                         onClick={toggleDarkMode}
-                        className="text-[#252525] dark:text-white hover:text-blue-500 dark:hover:text-yellow-400"
+                        className="text-[#252525] text-lg dark:text-white hover:text-blue-500 dark:hover:text-yellow-400"
                     >
                         {darkMode ? <FaMoon /> : <FaSun />}
                     </button>
@@ -97,9 +97,9 @@ const Navbar = ({ toggleDarkMode, darkMode }) => {
                     <div className="md:hidden inline-flex justify-center items-center">
                         <button onClick={toggleNav}>
                             {navShow ? (
-                                <FaWindowClose className="text-lg" />
+                                <FaWindowClose className="text-xl" />
                             ) : (
-                                <FaBars className="text-lg" />
+                                <FaBars className="text-xl" />
                             )}
                         </button>
                     </div>
