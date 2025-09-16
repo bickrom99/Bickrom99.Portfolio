@@ -2,181 +2,149 @@
   "Portfolio": [
     {
       "id": 1,
-      "image": "/Images/USA-client-blog.png",
-      "Title": "Construction Blog Website for USA Client (Fiverr Project)",
-      "desc": "Modern and responsive blog website built for a USA-based client via Fiverr, featuring clean UI, SEO optimization, and full WordPress CMS integration.",
-      "popup_info": {
-        "keyFeatures": [
-          "Developed a fully responsive blog website using WordPress, tailored for a USA-based client.",
-          "Implemented an elegant, minimal UI design focused on readability and user engagement.",
-          "Integrated SEO-friendly structure, custom blog post layouts, and easy-to-manage backend using Elementor Pro.",
-          "Ensured fast loading time, mobile responsiveness, and browser compatibility across all devices."
+      "image": "/Images/portfolio1.png",
+      "caseStudyTitle": "𝗖𝗮𝘀𝗲 𝗦𝘁𝘂𝗱𝘆 – Real Estate Buyers Agent Website",
+      "client": "𝗖𝗹𝗶𝗲𝗻𝘁: Niki Nakrani – Property Buyers Agent, Powered by Leverage Listings",
+      "location": "𝗟𝗼𝗰𝗮𝘁𝗶𝗼𝗻: Australia (Perth, WA)",
+      "projectInfo": {
+        "pages": "📄 Pages: 𝗛𝗼𝗺𝗲, 𝗔𝗯𝗼𝘂𝘁, 𝗦𝗲𝗿𝘃𝗶𝗰𝗲𝘀, 𝗣𝗿𝗼𝗷𝗲𝗰𝘁 𝗣𝗼𝗿𝘁𝗳𝗼𝗹𝗶𝗼, 𝗖𝗼𝗻𝘁𝗮𝗰𝘁, 𝗕𝗹𝗼𝗴",
+        "theme": "🎨 Theme: 𝗔𝘀𝘁𝗿𝗮",
+        "platform": "💻 Platform: 𝗪𝗼𝗿𝗱𝗣𝗿𝗲𝘀𝘀",
+        "tools": "🛠️ Tools Used: 𝗘𝗹𝗲𝗺𝗲𝗻𝘁𝗼𝗿 𝗣𝗿𝗼, 𝗘𝘀𝘀𝗲𝗻𝘁𝗶𝗮𝗹 𝗔𝗱𝗱𝗼𝗻𝘀, 𝗥𝗮𝗻𝗸 𝗠𝗮𝘁𝗵 𝗣𝗿𝗼, 𝗝𝗲𝘁𝗽𝗮𝗰𝗸, 𝗦𝗶𝘁𝗲 𝗞𝗶𝘁, 𝗡𝗶𝘁𝗿𝗼𝗣𝗮𝗰𝗸"
+      },
+      "sections": {
+        "overview": [
+          "I designed and developed a professional real estate buyers agent website for Niki Nakrani, a property buyers agent based in Perth, WA.",
+          "The goal was to create a trust-building online presence that highlights her services, expertise, and personal brand."
         ],
-        "challengeFaced": [
-          "Client needed a unique and modern layout that stood out from typical blog templates.",
-          "Ensuring the blog structure was optimized for both readers and search engines posed a design and technical challenge."
+        "features": [
+          "Home Page: Clean hero section with clear value proposition – “Explore How I Can Help”",
+          "About Page: Showcasing Niki’s story, expertise, and unique value as a buyers agent",
+          "Services Page: Structured services – Full Buyers Agent Service, Negotiation, and Strategy Advice",
+          "Project Portfolio: Highlight successful property deals and case studies",
+          "Blog Page: Insights & market trends with subscription option",
+          "Contact Page: Easy-to-use form for consultation booking"
         ],
-        "solutionApplied": [
-          "Customized a WordPress theme using Elementor Pro to meet client-specific design preferences.",
-          "Structured content with semantic HTML and used SEO best practices to boost organic reach.",
-          "Tested and optimized across devices for smooth performance and consistent layout rendering."
+        "valueDelivered": [
+          "Built a conversion-focused website tailored for real estate services",
+          "Enhanced Niki’s personal brand & trust factor in the Perth property market",
+          "Integrated lead generation tools (newsletter/blog + contact forms)",
+          "Delivered a mobile-first, SEO-friendly, and fast-loading website"
         ]
       },
-      "livePreviewLink": "https://alabamamodular.homes/"
+      "livePreview": {
+        "text": "🔗 Live Preview:",
+        "link": "https://alabamamodular.homes/"
+      }
     },
     {
       "id": 2,
-      "image": "/Images/WP-Business-web2.png",
-      "Title": "Ecommerce WordPress Website For Business",
-      "desc": "Professional eCommerce website with mobile-friendly design, secure transactions, and seamless navigation for business growth.",
-      "popup_info": {
-        "keyFeatures": [
-          "Developed a professional eCommerce website for health services, designed for easy browsing and secure transactions.",
-          "Optimized for mobile use, ensuring a seamless shopping experience on smartphones and tablets.",
-          "Integrated advanced product search features, allowing users to easily find the items they need."
+      "image": "/Images/portfolio2.png",
+      "caseStudyTitle": "𝗖𝗮𝘀𝗲 𝗦𝘁𝘂𝗱𝘆 – Personal Branding & Consulting Website",
+      "client": "𝗖𝗹𝗶𝗲𝗻𝘁: AJ Kumar – Founder of The Limitless Company",
+      "location": "𝗟𝗼𝗰𝗮𝘁𝗶𝗼𝗻: United States",
+      "projectInfo": {
+        "pages": "📄 Pages: 𝗛𝗼𝗺𝗲, 𝗔𝗯𝗼𝘂𝘁, 𝗖𝗼𝗻𝘀𝘂𝗹𝘁𝗶𝗻𝗴, 𝗕𝗹𝗼𝗴, 𝗕𝗼𝗼𝗸, 𝗖𝗼𝗻𝘁𝗮𝗰𝘁",
+        "theme": "🎨 Theme: 𝗔𝘀𝘁𝗿𝗮",
+        "platform": "💻 Platform: 𝗪𝗼𝗿𝗱𝗣𝗿𝗲𝘀𝘀",
+        "tools": "🛠️ Tools Used: 𝗘𝗹𝗲𝗺𝗲𝗻𝘁𝗼𝗿 𝗣𝗿𝗼, 𝗥𝗮𝗻𝗸 𝗠𝗮𝘁𝗵 𝗣𝗿𝗼, 𝗝𝗲𝘁𝗽𝗮𝗰𝗸, 𝗦𝗶𝘁𝗲 𝗞𝗶𝘁, 𝗘𝘀𝘀𝗲𝗻𝘁𝗶𝗮𝗹 𝗔𝗱𝗱𝗼𝗻𝘀, 𝗡𝗶𝘁𝗿𝗼𝗣𝗮𝗰𝗸, 𝗖𝗹𝗮𝘀𝘀𝗶𝗰 𝗘𝗱𝗶𝘁𝗼𝗿"
+      },
+      "sections": {
+        "overview": [
+          "I designed and developed a Personal Branding + Consulting Website for AJ Kumar, a well-known digital marketing expert, entrepreneur, and author.",
+          "The website was built to reflect his authority in the industry and to position him as a thought leader with a strong personal brand."
         ],
-        "challengeFaced": [
-          "Ensuring a user-friendly interface for customers in the health service sector while maintaining trust and professionalism.",
-          "The need for mobile optimization was critical, as many users would access the site on smartphones."
+        "features": [
+          "Home Page: Strong personal branding message – “Transform Your Authority Into Revenue”",
+          "About Page: Showcasing AJ’s career, achievements, and personal journey",
+          "Consulting Page: Highlighting high-value consulting services for entrepreneurs, CEOs, and thought leaders",
+          "Blog / Insights: Subscription-based newsletter “Musings of a Marketer” with lead generation form",
+          "Book Page: Dedicated section for his upcoming book “Guru Inc.” launching in 2026",
+          "Contact Page: Simple & professional way to connect and book a strategy session"
         ],
-        "solutionApplied": [
-          "Implemented a responsive design using WordPress, ensuring that the site works well on all devices.",
-          "Optimized performance by compressing images and employing lazy loading to improve the site's speed and usability."
+        "valueDelivered": [
+          "Built a conversion-focused personal brand website designed to attract consulting clients",
+          "Integrated newsletter subscription system to grow an engaged community",
+          "Optimized for SEO, speed, and mobile-first performance",
+          "Structured to showcase authority and build trust with celebrities, entrepreneurs, and executives"
         ]
       },
-      "livePreviewLink": "https://healthybodysoul.net/"
-    },
-    {
-      "id": 2,
-      "image": "/Images/WP-Fire-website.png",
-      "Title": "Fire Service Website Using WordPress",
-      "popup_info": {
-        "keyFeatures": [
-          "Designed a responsive WordPress website that allows real-time updates for fire emergency services, with clear navigation and essential information.",
-          "Focused on professional and accessible design to help users quickly find vital services during emergencies.",
-          "Incorporated advanced accessibility features to ensure the site is easy to navigate for all users, especially during critical times."
-        ],
-        "challengeFaced": [
-          "One of the main challenges was ensuring that the website could handle real-time updates of emergency information without affecting the user experience.",
-          "Also, integrating an easy-to-use content management system for non-technical staff was crucial to ensuring smooth operation."
-        ],
-        "solutionApplied": [
-          "Leveraged Elementor for flexible and responsive design, and used WordPress plugins for real-time content updates.",
-          "Implemented an intuitive content management system, allowing fire department staff to easily update information without technical expertise."
-        ]
-      },
-      "desc": "Efficient Fire Service website with real-time updates, clear navigation, and professional design for emergency response.",
-      "livePreviewLink": "https://fire.brittosoft.com/"
+      "livePreview": {
+        "text": "🔗 Live Preview:",
+        "link": "https://your-preview-link.com"
+      }
     },
     {
       "id": 3,
-      "image": "/Images/Business-Card.png",
-      "Title": "Digital Business Card",
-      "desc": "Eco-friendly digital card showcasing professional details with sleek design and easy accessibility for impactful networking.",
-      "popup_info": {
-        "keyFeatures": [
-          "Created an eco-friendly, sleek digital business card with professional details accessible via a direct link or QR code.",
-          "Designed for easy sharing and accessible anywhere, streamlining the process of sharing contact information.",
-          "Optimized for mobile devices, ensuring that users can access the digital card seamlessly across different platforms."
+      "image": "/Images/portfolio3.png",
+      "caseStudyTitle": "𝗖𝗮𝘀𝗲 𝗦𝘁𝘂𝗱𝘆 – Figma to WordPress (Home Page Development)",
+      "client": "𝗖𝗹𝗶𝗲𝗻𝘁: Automotive / Digital Dealership System",
+      "location": "📍 Industry: Automotive / Digital Dealership System",
+      "projectInfo": {
+        "pages": "📄 Pages: 𝗛𝗼𝗺𝗲, 𝗔𝗯𝗼𝘂𝘁, 𝗖𝗼𝗻𝘀𝘂𝗹𝘁𝗶𝗻𝗴, 𝗕𝗹𝗼𝗴, 𝗕𝗼𝗼𝗸, 𝗖𝗼𝗻𝘁𝗮𝗰𝘁",
+        "theme": "🎨 Theme: 𝗔𝘀𝘁𝗿𝗮",
+        "platform": "💻 Platform: 𝗪𝗼𝗿𝗱𝗣𝗿𝗲𝘀𝘀",
+        "tools": "🛠️ Tools Used: 𝗘𝗹𝗲𝗺𝗲𝗻𝘁𝗼𝗿 𝗣𝗿𝗼, 𝗥𝗮𝗻𝗸 𝗠𝗮𝘁𝗵 𝗣𝗿𝗼, 𝗝𝗲𝘁𝗽𝗮𝗰𝗸, 𝗦𝗶𝘁𝗲 𝗞𝗶𝘁, 𝗘𝘀𝘀𝗲𝗻𝘁𝗶𝗮𝗹 𝗔𝗱𝗱𝗼𝗻𝘀, 𝗡𝗶𝘁𝗿𝗼𝗣𝗮𝗰𝗸, 𝗖𝗹𝗮𝘀𝘀𝗶𝗰 𝗘𝗱𝗶𝘁𝗼𝗿"
+      },
+      "sections": {
+        "overview": [
+          "I converted a professional Figma design into a fully responsive WordPress homepage for a Digital Dealership SaaS company.",
+          "The focus was on clean UI, modern design, and pixel-perfect Elementor development."
         ],
-        "challengeFaced": [
-          "The main challenge was designing a user-friendly interface that felt professional yet was simple enough to use across various devices.",
-          "Ensuring compatibility with various QR scanning apps and browsers while maintaining a smooth user experience."
+        "features": [
+          "Hero Section: Engaging headline & product screenshot for instant brand authority",
+          "Feature Highlights: Clear service benefits (Track, Motivate, Retain) with icon-based blocks",
+          "Team Section: Professional layout showcasing company experts",
+          "Partner Logos Section: Built to highlight trusted automotive industry partners",
+          "End-to-End Installations Section: Conversion-focused CTA design for lead generation"
         ],
-        "solutionApplied": [
-          "Used HTML5 and CSS3 for a responsive and adaptable design that ensures the card looks great on all screen sizes.",
-          "Added JavaScript to make contact buttons clickable and integrated social media links to expand networking opportunities."
+        "valueDelivered": [
+          "Pixel-perfect Figma to WordPress conversion",
+          "Fully responsive and SEO-friendly design",
+          "Optimized fast-loading homepage tailored for SaaS marketing",
+          "Result: A modern, professional homepage that strengthens the client’s digital presence and credibility"
         ]
       },
-      "livePreviewLink": "https://bickrom99.github.io/Digital-business-card2/"
+      "livePreview": {
+        "text": "🔗 Live Preview:",
+        "link": "https://your-figma-to-wp-link.com"
+      }
     },
     {
       "id": 4,
-      "image": "/Images/WP-Business_web.png",
-      "Title": "Ecommerce WordPress Website For Business",
-      "desc": "Feature-rich eCommerce site with secure payments, responsive design, and user-friendly navigation to boost online sales.",
-      "popup_info": {
-        "keyFeatures": [
-          "Developed a feature-rich eCommerce site with secure payment integration and easy product navigation to enhance the shopping experience.",
-          "Focused on responsive design, ensuring the site looks great on all devices and is accessible to a wide range of customers.",
-          "Integrated a streamlined checkout process and secure payment gateway for a smooth and safe transaction experience."
+      "image": "/Images/portfolio4.png",
+      "caseStudyTitle": "𝗖𝗮𝘀𝗲 𝗦𝘁𝘂𝗱𝘆 – Delaware Health Empowerment Coalition Website",
+      "client": "𝗖𝗹𝗶𝗲𝗻𝘁: Delaware Health Empowerment Coalition – Not-for-Profit (501(c)(3))",
+      "location": "𝗟𝗼𝗰𝗮𝘁𝗶𝗼𝗻: Wilmington, Delaware (USA)",
+      "projectInfo": {
+        "pages": "📄 Pages: Home, About Us, Services, Schedule an Appointment, Careers, Events, Contact Us, Donate",
+        "theme": "🎨 Theme: Astra",
+        "platform": "💻 Platform: WordPress",
+        "tools": "🛠️ Tools Used: Elementor Pro, The Events Calendar, Contact Form-7, Jetpack, Site Kit, NitroPack"
+      },
+      "sections": {
+        "overview": [
+          "I designed and developed a professional healthcare-focused website for Delaware Health Empowerment Coalition, a not-for-profit organization dedicated to restoring trust in healthcare and eradicating health disparities in underserved communities of Delaware.",
+          "The goal was to create an accessible, trustworthy, and user-friendly website that communicates their vision, mission, and healthcare services while making it easy for patients to connect, book appointments, and seek support."
         ],
-        "challengeFaced": [
-          "Creating a secure payment system that was both easy to implement and fully compliant with industry standards was a key challenge.",
-          "Ensuring the site worked seamlessly on both desktop and mobile devices, while maintaining the user experience, required extra attention to detail."
+        "features": [
+          "About Page: Clear introduction to mission, vision & non-discrimination commitment",
+          "Services Page: Structured healthcare services – Primary Care, Behavioral Health, Dental Care, Social Care, Lab Testing, Specialty Healthcare & Telehealth",
+          "Appointment Scheduling: Easy-to-use booking system integrated with clinic & office hours",
+          "Donate Page: Integrated donation option to support their non-profit initiatives",
+          "Accessibility Focus: Mobile-friendly, patient-first design with simple navigation for all users"
         ],
-        "solutionApplied": [
-          "Utilized WooCommerce for payment gateway integration and ensured secure transactions using SSL encryption.",
-          "Designed with a mobile-first approach to ensure all features, including the checkout process, were optimized for small screens."
+        "valueDelivered": [
+          "Built a conversion-focused healthcare website highlighting mission-driven care",
+          "Enhanced trust & credibility for underserved communities in Delaware",
+          "Integrated lead generation tools – appointment booking & donation system",
+          "Delivered a fast, mobile-first, SEO-friendly website for better visibility & community engagement"
         ]
       },
-      "livePreviewLink": "https://jenningsexec.com/"
-    },
-    {
-      "id": 6,
-      "image": "/Images/Blog-website.png",
-      "Title": "Blog Website Design",
-      "desc": "Responsive blog website optimized for content sharing, readability, and engagement to expand audience reach.",
-      "popup_info": {
-        "keyFeatures": [
-          "Designed a responsive and user-friendly blog website optimized for content sharing, readability, and engagement.",
-          "Incorporated categories, tags, and search functionality to make it easy for users to find specific content.",
-          "Added social media sharing buttons to increase post visibility and encourage user interaction."
-        ],
-        "challengeFaced": [
-          "Designing the blog layout to be visually appealing while keeping it clean and simple for users to read was a key challenge.",
-          "Ensuring the website loaded quickly despite large amounts of content was also a concern."
-        ],
-        "solutionApplied": [
-          "Utilized a custom WordPress theme to create a clean, modern design with easy navigation.",
-          "Optimized images and minimized CSS/JS files to improve the site's loading speed and enhance user experience."
-        ]
-      },
-      "livePreviewLink": "https://react-blog-website-rose.vercel.app/"
-    },
-    {
-      "id": 7,
-      "image": "/Images/Ecommerce-website.png",
-      "Title": "Ecommerce Website Using Custom Code",
-      "desc": "Custom-coded eCommerce site offering tailored features, secure transactions, and exceptional performance for online shopping.",
-      "popup_info": {
-        "keyFeatures": [
-          "Built a custom-coded eCommerce website offering tailored features such as secure payments and advanced inventory management.",
-          "Designed with responsive layouts to ensure smooth browsing across all devices.",
-          "Optimized performance and scalability to handle a high volume of users and transactions."
-        ],
-        "challengeFaced": [
-          "The challenge was to develop a custom solution that met the specific needs of the client while ensuring scalability and performance.",
-          "Implementing a secure payment system and ensuring data protection during transactions required careful planning."
-        ],
-        "solutionApplied": [
-          "Used custom JavaScript and APIs for dynamic product management and secure payment integration.",
-          "Implemented performance optimization strategies such as lazy loading and image compression to ensure a fast and smooth experience for users."
-        ]
-      },
-      "livePreviewLink": "https://commerce-website-bickrom99.vercel.app/"
-    },
-    {
-      "id": 8,
-      "image": "/Images/Live-quizz-website.png",
-      "Title": "Live-Quizz Website Using React",
-      "desc": "Interactive React-based quiz platform offering seamless performance, responsive design, and user-friendly interface for enhanced engagement.",
-      "popup_info": {
-        "keyFeatures": [
-          "Developed an interactive quiz platform using React, offering seamless performance and a highly responsive design.",
-          "Implemented real-time user interactions with dynamic question rendering, instant feedback, and a smooth user experience.",
-          "Optimized for mobile devices with smooth transitions and an engaging, user-friendly interface."
-        ],
-        "challengeFaced": [
-          "Designing a real-time interactive quiz platform presented challenges in ensuring smooth performance with multiple users interacting at once.",
-          "Ensuring compatibility across devices while maintaining an engaging experience was also a significant hurdle."
-        ],
-        "solutionApplied": [
-          "Utilized React hooks for efficient state management and optimized the rendering process to ensure smooth user interaction.",
-          "Created a custom solution for saving user progress via local storage, ensuring users can pick up where they left off even after refreshing the page."
-        ]
-      },
-      "livePreviewLink": "https://quiz-live-bickrom99.vercel.app/"
+      "livePreview": {
+        "text": "🔗 Live Preview:",
+        "link": "https://your-health-website-link.com"
+      }
     }
   ],
   "Services": [
