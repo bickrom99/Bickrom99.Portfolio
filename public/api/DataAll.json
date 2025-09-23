@@ -2,7 +2,45 @@
   "Portfolio": [
     {
       "id": 1,
-      "image": "/Images/portfolio1.png",
+      "image": "/Images/Portfolio-bickrom99-1.png",
+      "caseStudyTitle": "𝗖𝗮𝘀𝗲 𝗦𝘁𝘂𝗱𝘆 – Mobile & In-Shop Car Detailing Website",
+      "client": "𝗖𝗹𝗶𝗲𝗻𝘁: Car Spa Calgary – Trusted Car Detailing Service",
+      "location": "𝗟𝗼𝗰𝗮𝘁𝗶𝗼𝗻: Canada",
+      "projectInfo": {
+        "pages": "📄 Pages: 𝗛𝗼𝗺𝗲, 𝗦𝗲𝗿𝘃𝗶𝗰𝗲𝘀, 𝗣𝗿𝗼 𝗦𝗲𝗿𝘃𝗶𝗰𝗲𝘀 / 𝗣𝗿𝗶𝗰𝗲 𝗟𝗶𝘀𝘁, 𝗚𝗶𝗳𝘁 𝗖𝗮𝗿𝗱𝘀, 𝗕𝗹𝗼𝗴, 𝗥𝗲𝘃𝗶𝗲𝘄𝘀, 𝗖𝗼𝗻𝘁𝗮𝗰𝘁 & 𝗖𝗮𝗹𝗹𝗯𝗮𝗰𝗸",
+        "theme": "🎨 Theme: 𝗔𝘀𝘁𝗿𝗮",
+        "platform": "💻 Platform: 𝗪𝗼𝗿𝗱𝗣𝗿𝗲𝘀𝘀",
+        "tools": "🛠️ Tools Used: 𝗘𝗹𝗲𝗺𝗲𝗻𝘁𝗼𝗿, 𝗘𝗹𝗲𝗺𝗲𝗻𝘁𝗼𝗿 𝗣𝗿𝗼, 𝗖𝗼𝗻𝘁𝗮𝗰𝘁 𝗙𝗼𝗿𝗺-𝟳, 𝗪𝗼𝗼𝗖𝗼𝗺𝗺𝗲𝗿𝗰𝗲, 𝗘𝘀𝘀𝗲𝗻𝘁𝗶𝗮𝗹 𝗔𝗱𝗱𝗼𝗻𝘀, 𝗥𝗮𝗻𝗸 𝗠𝗮𝘁𝗵, 𝗝𝗲𝘁𝗽𝗮𝗰𝗸, 𝗦𝗶𝘁𝗲 𝗞𝗶𝘁, 𝗡𝗶𝘁𝗿𝗼𝗣𝗮𝗰𝗸"
+      },
+      "sections": {
+        "overview": [
+          "I designed and developed a professional website for Car Spa Calgary, a trusted car detailing service provider in Calgary.",
+          "The goal was to create a conversion-focused platform that highlights their mobile & in-shop services, pricing, and easy appointment booking system while building trust with local car owners."
+        ],
+        "features": [
+          "Home Page: Bold hero section with tagline – “Car Detailing in Calgary | Steam Auto Spa – Affordable. Convenient. Sustainable.”",
+          "Services Page: Clear service options – Mobile Detailing & In-Shop Detailing with detailed descriptions",
+          "Pro Services / Price List: Transparent pricing tables for Sedan, SUV/Truck, Minivan with add-ons (Interior Detailing, Ceramic Coating, Polishing & Paint Correction)",
+          "Gift Cards: Option to purchase digital gift cards for clients/customers",
+          "Blog: Space to share car detailing tips, updates, and client engagement content",
+          "Reviews: Showcasing testimonials to build credibility",
+          "Contact & Callback: Easy-to-use form with a “We’ll call you back in less than 30 seconds!” promise"
+        ],
+        "valueDelivered": [
+          "Developed a user-friendly, mobile-first website that appeals to both walk-in and on-location clients",
+          "Integrated clear booking options (mobile & in-shop) for convenience",
+          "Built a conversion-driven layout with CTA buttons like “Book Your Detailing Appointment”",
+          "Added SEO optimization & speed enhancements for better local ranking and performance"
+        ]
+      },
+      "livePreview": {
+        "text": "🔗 Live Preview:",
+        "link": "https://detailingcarspa.com/"
+      }
+    },
+    {
+      "id": 2,
+      "image": "/Images/Portfolio-bickrom99-6.png",
       "caseStudyTitle": "𝗖𝗮𝘀𝗲 𝗦𝘁𝘂𝗱𝘆 – Real Estate Buyers Agent Website",
       "client": "𝗖𝗹𝗶𝗲𝗻𝘁: Niki Nakrani – Property Buyers Agent, Powered by Leverage Listings",
       "location": "𝗟𝗼𝗰𝗮𝘁𝗶𝗼𝗻: Australia (Perth, WA)",
@@ -34,12 +72,12 @@
       },
       "livePreview": {
         "text": "🔗 Live Preview:",
-        "link": "https://alabamamodular.homes/"
+        "link": "https://www.nakranipropertybuyers.com.au/"
       }
     },
     {
-      "id": 2,
-      "image": "/Images/portfolio2.png",
+      "id": 3,
+      "image": "/Images/Portfolio-bickrom99-3.png",
       "caseStudyTitle": "𝗖𝗮𝘀𝗲 𝗦𝘁𝘂𝗱𝘆 – Personal Branding & Consulting Website",
       "client": "𝗖𝗹𝗶𝗲𝗻𝘁: AJ Kumar – Founder of The Limitless Company",
       "location": "𝗟𝗼𝗰𝗮𝘁𝗶𝗼𝗻: United States",
@@ -71,12 +109,12 @@
       },
       "livePreview": {
         "text": "🔗 Live Preview:",
-        "link": "https://your-preview-link.com"
+        "link": "https://ajkumar.com/"
       }
     },
     {
-      "id": 3,
-      "image": "/Images/portfolio3.png",
+      "id": 4,
+      "image": "/Images/Portfolio-bickrom99-4.png",
       "caseStudyTitle": "𝗖𝗮𝘀𝗲 𝗦𝘁𝘂𝗱𝘆 – Figma to WordPress (Home Page Development)",
       "client": "𝗖𝗹𝗶𝗲𝗻𝘁: Automotive / Digital Dealership System",
       "location": "📍 Industry: Automotive / Digital Dealership System",
@@ -107,12 +145,51 @@
       },
       "livePreview": {
         "text": "🔗 Live Preview:",
-        "link": "https://your-figma-to-wp-link.com"
+        "link": "https://bickrom99.vercel.app/"
       }
     },
     {
-      "id": 4,
-      "image": "/Images/portfolio4.png",
+      "id": 5,
+      "image": "/Images/Portfolio-bickrom99-2.png",
+      "caseStudyTitle": "𝗖𝗮𝘀𝗲 𝗦𝘁𝘂𝗱𝘆 – Telecom & IT Solutions Website",
+      "client": "𝗖𝗹𝗶𝗲𝗻𝘁: Business Telecom Provider",
+      "location": "𝗟𝗼𝗰𝗮𝘁𝗶𝗼𝗻: South Africa",
+      "projectInfo": {
+        "pages": "📄 Pages: Home, About, Get Connected, Voice, Paper Cut, Printers, Finance, IT, Blog, Contact Us, Support",
+        "theme": "🎨 Theme: Astra",
+        "platform": "💻 Platform: WordPress",
+        "tools": "🛠️ Tools Used: Elementor Pro, WPForms, Rank Math SEO, WP Rocket, Jetpack, Site Kit, Essential Addons, MonsterInsights, Contact Form 7, UpdraftPlus (backup & restore)"
+      },
+      "sections": {
+        "overview": [
+          "I designed and developed a professional telecom & IT solutions website for a business-focused internet provider.",
+          "The primary goal was to create a high-conversion website that highlights their reliable connectivity solutions (Fibre, LTE, Satellite, Wireless) while emphasizing customer-first service, fast support, and transparent pricing."
+        ],
+        "features": [
+          "Home Page: Strong hero tagline – 'STAY CONNECTED, STAY AHEAD' with CTA buttons",
+          "Connectivity Checker: Coverage check tool where users can enter their address for instant availability",
+          "Solutions Pages: Dedicated sections for Fibre, LTE, Wireless Internet, Voice, Printers, and Finance solutions",
+          "Customer-Centric Messaging: Bold sections addressing frustrations with unstable connections, poor support, and hidden fees",
+          "Partners Section: Showcasing trusted partners like Office, Openserve, Radwin",
+          "Support Page: Easy-to-use forms for customer support & quick issue resolution",
+          "Blog Section: Articles to educate businesses about telecom, IT, and productivity"
+        ],
+        "valueDelivered": [
+          "Developed a high-performance website that builds trust with business clients",
+          "Integrated coverage checker to help customers quickly assess service availability",
+          "Optimized site with SEO, caching, and mobile-first design for maximum reach",
+          "Delivered a customer-focused UX with fast navigation and clear CTAs (Get Connected, Learn More, Shop Now)",
+          "Structured to highlight telecom frustrations and provide clear, reliable solutions"
+        ]
+      },
+      "livePreview": {
+        "text": "🔗 Live Preview:",
+        "link": "https://wordpress-1318564-5642584.cloudwaysapps.com/"
+      }
+    },
+    {
+      "id": 6,
+      "image": "/Images/Portfolio-bickrom99-7.png",
       "caseStudyTitle": "𝗖𝗮𝘀𝗲 𝗦𝘁𝘂𝗱𝘆 – Delaware Health Empowerment Coalition Website",
       "client": "𝗖𝗹𝗶𝗲𝗻𝘁: Delaware Health Empowerment Coalition – Not-for-Profit (501(c)(3))",
       "location": "𝗟𝗼𝗰𝗮𝘁𝗶𝗼𝗻: Wilmington, Delaware (USA)",
@@ -143,7 +220,123 @@
       },
       "livePreview": {
         "text": "🔗 Live Preview:",
-        "link": "https://your-health-website-link.com"
+        "link": "https://dev.delawarehealthequitycoalition.org/"
+      }
+    },
+    {
+      "id": 7,
+      "image": "/Images/Portfolio-bickrom99-5.png",
+      "caseStudyTitle": "𝗖𝗮𝘀𝗲 𝗦𝘁𝘂𝗱𝘆 – Fashion & E-Commerce Website",
+      "client": "𝗖𝗹𝗶𝗲𝗻𝘁: FemmeWardrobe – Luxury Fashion Brand",
+      "location": "𝗟𝗼𝗰𝗮𝘁𝗶𝗼𝗻: Nigeria",
+      "projectInfo": {
+        "pages": "📄 Pages: Home, Shop, About Us, Contact Us, Search, RTW (Ready-to-Wear), Bespoke & Bridal, Beauty Charming Couture",
+        "theme": "🎨 Theme: Astra",
+        "platform": "💻 Platform: WordPress + WooCommerce",
+        "tools": "🛠️ Tools Used: Elementor Pro, WooCommerce, Rank Math SEO, WP Rocket, Site Kit, Essential Addons, Jetpack, Variation Swatches for WooCommerce, Payment Gateway Integration (Paystack), Contact Form 7"
+      },
+      "sections": {
+        "overview": [
+          "I designed and developed a premium e-commerce fashion website for FemmeWardrobe, a Nigerian luxury brand that blends bespoke designs with timeless elegance.",
+          "The website showcases collections such as RTW, Bespoke & Bridal, and Beauty Charming Couture, with a focus on user-friendly shopping and modern branding."
+        ],
+        "features": [
+          "Home Page: Hero section with tagline – “In a world full of trend, be classy”",
+          "Shop Page: Organized product categories (RTW, Evening Dresses, Custom-Made, Blazers, Bags, Accessories)",
+          "Featured Products: Showcasing Best Sellers like Èkó Akété Custom-made Dress, Busola Dress, Bukola Aso Oke Costume-Made",
+          "Product Details: Transparent pricing (₦100,000.00) with easy Add-to-Cart functionality",
+          "Collections: Professional pinstripe blazers collection and exquisite bag collection highlights",
+          "Call-to-Actions: ‘View Latest Collection’, ‘Shop Now’, and ‘View Collection’ buttons for quick navigation",
+          "Customer Review Section: Testimonial highlighting fashion quality, sustainability, and customer experience"
+        ],
+        "valueDelivered": [
+          "Built a luxury e-commerce platform with WooCommerce for seamless online shopping",
+          "Integrated Paystack payment gateway for Nigerian customers",
+          "Optimized product showcases for best sellers and latest collections",
+          "Enhanced performance with caching, SEO optimization, and mobile-first design",
+          "Created a customer-focused experience highlighting sustainability and brand story"
+        ]
+      },
+      "livePreview": {
+        "text": "🔗 Live Preview:",
+        "link": "https://beautycharmingcouture.com/"
+      }
+    },
+    {
+      "id": 8,
+      "image": "/public/Images/Portfolio-bickrom99-8.jpg",
+      "caseStudyTitle": "𝐂𝐚𝐬𝐞 𝐒𝐭𝐮𝐝𝐲 – Laravel to WordPress Migration (Elementor Pro)",
+      "client": "𝗖𝗹𝗶𝗲𝗻𝘁: French Business Website",
+      "location": "𝗟𝗼𝗰𝗮𝘁𝗶𝗼𝗻: France",
+      "projectInfo": {
+        "pages": "📄 Pages: 𝗛𝗼𝗺𝗲, 𝗔𝗯𝗼𝘂𝘁, 𝗦𝗲𝗿𝘃𝗶𝗰𝗲𝘀, 𝗕𝗹𝗼𝗴, 𝗖𝗼𝗻𝘁𝗮𝗰𝘁",
+        "theme": "🎨 Theme: 𝗔𝘀𝘁𝗿𝗮",
+        "platform": "💻 Platform: 𝗪𝗼𝗿𝗱𝗣𝗿𝗲𝘀𝘀",
+        "tools": "🛠️ Tools Used: Elementor Pro, WPForms, WooCommerce, Rank Math Pro, Jetpack, Site Kit by Google, Essential Addons, WP Rocket, UpdraftPlus (backup & migration), Classic Editor"
+      },
+      "sections": {
+        "overview": [
+          "I migrated an existing Laravel-based website to WordPress using Elementor Pro, rebuilding the entire design with a modern, responsive, and client-friendly structure.",
+          "The main objective was to provide a platform that not only looks professional but also improves SEO performance and ensures easy content management for the client."
+        ],
+        "features": [
+          "Modern & Responsive Design: Built with Elementor Pro to achieve a pixel-perfect layout",
+          "SEO Optimization: Integrated Rank Math Pro for better search visibility",
+          "Content Management: Client can easily update text, images, and blog posts without coding knowledge",
+          "Backup & Security: Configured UpdraftPlus and Jetpack for regular backups and protection",
+          "Performance: Implemented WP Rocket + CDN support for faster page loading",
+          "Contact Form: Simple, reliable, and styled with WPForms for better user experience"
+        ],
+        "valueDelivered": [
+          "Successfully migrated the site from Laravel to WordPress with zero data loss",
+          "Enhanced SEO performance to increase visibility in local search results",
+          "Provided a future-proof WordPress website with easier scalability",
+          "Empowered the client to manage content independently without technical support"
+        ]
+      },
+      "livePreview": {
+        "text": "🔗 Live Preview:",
+        "link": "https://your-preview-link.com"
+      }
+    },
+    {
+      "id": 9,
+      "image": "/Images/Portfolio-bickrom99-9.png.png",
+      "caseStudyTitle": "𝗖𝗮𝘀𝗲 𝗦𝘁𝘂𝗱𝘆 – Holistic Health & Acupuncture Clinic Website",
+      "client": "𝗖𝗹𝗶𝗲𝗻𝘁: Healthy Body and Soul",
+      "location": "𝗟𝗼𝗰𝗮𝘁𝗶𝗼𝗻: Suwanee, Georgia (USA)",
+      "projectInfo": {
+        "pages": "📄 Pages: Home, About Us, Treatments, Patient Portal, Video, Conditions Treated, Women’s Health, Contact Us, Shop, Free Consultation",
+        "theme": "🎨 Theme: Astra (customized for medical/holistic services)",
+        "platform": "💻 Platform: WordPress",
+        "tools": "🛠️ Tools Used: Elementor Pro, WPForms, Rank Math SEO, WP Rocket, Site Kit by Google, Essential Addons, MonsterInsights, UpdraftPlus (backup), WooCommerce (for Shop)"
+      },
+      "sections": {
+        "overview": [
+          "I designed and developed a wellness-focused website for a holistic health and acupuncture clinic.",
+          "The website highlights their 32+ years of experience in natural healing, offering treatments for pain relief, migraines, anxiety, women’s health, and more.",
+          "The main objective was to create a professional, trustworthy, and patient-friendly website with clear calls-to-action for booking appointments and free consultations."
+        ],
+        "features": [
+          "Hero Section: Welcoming tagline – 'Welcome to Total Well-being' with quick appointment booking",
+          "Conditions Treated: Dedicated page explaining acupuncture benefits for different health concerns",
+          "Free Consultation CTA: Easy form for patients to request a no-cost consultation",
+          "Treatments & Women’s Health: Structured service pages with clear explanations",
+          "Patient Portal: Secure login for patients to manage appointments and records",
+          "Shop Section: WooCommerce integration for wellness-related products",
+          "Contact & Location: Easy-to-access phone, map, and multiple social media links (LinkedIn, Facebook, YouTube, Twitter, Instagram)"
+        ],
+        "valueDelivered": [
+          "Built a professional and credible website tailored for a medical & wellness audience",
+          "Enhanced user trust by highlighting experience, conditions treated, and free consultations",
+          "Implemented SEO and performance optimizations for higher search visibility",
+          "Improved patient engagement with online booking, portal access, and product shop",
+          "Delivered a responsive, mobile-first design to ensure accessibility across all devices"
+        ]
+      },
+      "livePreview": {
+        "text": "🔗 Live Preview:",
+        "link": "https://healthybodysoul.net/"
       }
     }
   ],
