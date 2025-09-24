@@ -149,7 +149,7 @@ const Portfolio = () => {
               <img
                 src={item.image}
                 alt={item.caseStudyTitle || "portfolio"}
-                className="w-full h-56 object-cover rounded-md dark:rounded-2xl pb-2 z-10 border-4"
+                className="w-full h-72 object-cover rounded-md dark:rounded-2xl pb-2 z-10 border-4"
               />
 
               <h3 className="font-inter font-bold mt-4 text-gray-800 dark:text-[#e6c854] z-10 relative">
